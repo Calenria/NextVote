@@ -1,0 +1,9 @@
+name: NextVote
+main: com.github.calenria.nextvote.NextVote
+version: 0.3
+website: https://github.com/Calenria/NextVote
+author: Calenria
+description: NextVotes!
+database: true
+depend: [Votifier, Vault, WorldEdit]
+             

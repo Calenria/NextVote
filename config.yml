@@ -1,0 +1,76 @@
+lang: de
+voteInfo:
+  - '&5= KLICK => &bhttp://goo.gl/vycO8 &5<= KLICK ='
+  - '&4Vote jetzt und schnapp dir deine Überraschung!'
+  - '&5= KLICK => &bhttp://goo.gl/vycO8 &5<= KLICK ='
+thxVote:
+  - 'Hallo <player>, danke für deinen heutigen Vote!'
+noVote:
+  - 'Hallo <player>, du hast noch nie für uns gevotet!'
+dayVote:
+  - 'Hallo <player>, dein letzter Vote war gestern, du kannst nun wieder Voten!'
+daysVote:
+  - 'Hallo <player>, dein letzter Vote ist <days> Tage her'
+infoVote:
+  - 'Wenn du uns unterstützen möchtest Vote doch bitte für uns.'
+  - 'http://goo.gl/vycO8 <--- Das gibt eine hübsche Überraschung!'
+showBroadcast: true
+broadcastMessageItem:
+- '&4<player> hat gevotet und bekommt &c<itemamount> <itemname>'
+- '&4Vote jetzt und schnapp dir deine Überraschung!'
+- '&5= KLICK => &bhttp://goo.gl/vycO8 &5<= KLICK ='
+broadcastMessageEcon:
+- '&4<player> hat gevotet und bekommt &c<econ>&4'
+- '&4Vote jetzt und schnapp dir deine Überraschung!'
+- '&5= KLICK => &bhttp://goo.gl/vycO8 &5<= KLICK ='
+broadcastMessageItemEcon:
+- '&4<player> hat gevotet und bekommt &c<econ>&4 sowie &c<itemamount> <itemname>'
+- '&4Vote jetzt und schnapp dir deine Überraschung!'
+- '&5= KLICK => &bhttp://goo.gl/vycO8 &5<= KLICK ='
+bonusItem: true
+bonusChance: 1
+poorChance: 20
+averageChance: 50
+goodChance: 25
+topChance: 5
+poorMinAmount: 20
+poorMaxAmount: 50
+averageMinAmount: 10
+averageMaxAmount: 30
+goodMinAmount: 4
+goodMaxAmount: 10
+topMinAmount: 1
+topMaxAmount: 5
+onlyEcon: false
+fixEcon: true
+fixEconAmmount: 1000
+poorItems:
+- econ 100
+- '260'
+- '2'
+- '297'
+- '98:1'
+averageItems:
+- econ 200
+- '81'
+- '320'
+- '297'
+- '366'
+- '49'
+goodItems:
+- econ 300
+- '81'
+- '89'
+- '20'
+- '14'
+- '46'
+- '322:1'
+- '338'
+- '386'
+topItems:
+- econ 500
+- '264'
+- '276'
+- '277'
+- '278'
+- '397:1'
