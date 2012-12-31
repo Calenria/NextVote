@@ -42,94 +42,94 @@ import com.vexsoftware.votifier.model.Vote;
 import com.vexsoftware.votifier.model.VotifierEvent;
 
 public class NextVoteListener implements Listener {
-	private static Logger log = Logger.getLogger("Minecraft");
-	private NextVote plugin = null;
-	public EbeanServer database = null;
+    private static Logger log = Logger.getLogger("Minecraft");
+    private NextVote plugin = null;
+    public EbeanServer database = null;
 
-	public NextVoteListener(NextVote plugin) {
-		this.plugin = plugin;
-		Bukkit.getPluginManager().registerEvents(this, this.plugin);
-		try {
-			plugin.getDatabase().find(VoteData.class).findRowCount();
-		} catch (PersistenceException ex) {
-			log.log(Level.INFO, "Installing database for " + plugin.getDescription().getName() + " due to first time usage");
-			plugin.installDDL();
-		}
-		database = plugin.getDatabase();
-	}
+    public NextVoteListener(NextVote plugin) {
+        this.plugin = plugin;
+        Bukkit.getPluginManager().registerEvents(this, this.plugin);
+        try {
+            plugin.getDatabase().find(VoteData.class).findRowCount();
+        } catch (PersistenceException ex) {
+            log.log(Level.INFO, "Installing database for " + plugin.getDescription().getName() + " due to first time usage");
+            plugin.installDDL();
+        }
+        database = plugin.getDatabase();
+    }
 
-	@EventHandler(priority = EventPriority.NORMAL)
-	public void onVotifierEvent(VotifierEvent event) {
-		Vote vote = event.getVote();
-		String user = vote.getUsername();
+    @EventHandler(priority = EventPriority.NORMAL)
+    public void onVotifierEvent(VotifierEvent event) {
+        Vote vote = event.getVote();
+        String user = vote.getUsername();
 
-		log.info(String.format(plugin.messages.getString("player.vote.event"), user));
+        log.info(String.format(plugin.messages.getString("player.vote.event"), user));
 
-		OfflinePlayer thePlayer = Bukkit.getOfflinePlayer(user);
-		if (!thePlayer.hasPlayedBefore()) {
-			log.info(String.format(plugin.messages.getString("player.never.played"), user));
-			return;
-		}
+        OfflinePlayer thePlayer = Bukkit.getOfflinePlayer(user);
+        if (!thePlayer.hasPlayedBefore()) {
+            log.info(String.format(plugin.messages.getString("player.never.played"), user));
+            return;
+        }
 
-		VoteData voteData = new VoteData();
-		voteData.setMinecraftUser(user);
-		voteData.setTime(new Timestamp(System.currentTimeMillis()));
-		voteData.setService(vote.getServiceName());
-		voteData.setIp(vote.getAddress());
-		database.save(voteData);
-		plugin.nextVoteManager.doVote(user);
-	}
+        VoteData voteData = new VoteData();
+        voteData.setMinecraftUser(user);
+        voteData.setTime(new Timestamp(System.currentTimeMillis()));
+        voteData.setService(vote.getServiceName());
+        voteData.setIp(vote.getAddress());
+        database.save(voteData);
+        plugin.nextVoteManager.doVote(user);
+    }
 
-	@EventHandler(ignoreCancelled = true, priority = EventPriority.LOWEST)
-	public void onPlayerJoinEvent(final PlayerJoinEvent event) {
-		if (!event.getPlayer().hasPlayedBefore()) {
-			return;
-		}
+    @EventHandler(ignoreCancelled = true, priority = EventPriority.LOWEST)
+    public void onPlayerJoinEvent(final PlayerJoinEvent event) {
+        if (!event.getPlayer().hasPlayedBefore()) {
+            return;
+        }
 
-		plugin.getServer().getScheduler().scheduleSyncDelayedTask(plugin, new Runnable() {
-			public void run() {
-				Player player = event.getPlayer();
-				if (player != null) {
-					VoteData vote = database.find(VoteData.class).where(" minecraft_user like '" + player.getName() + "' order by id desc LIMIT 1").findUnique();
-					if (vote != null) {
-						Date voteDate = vote.getTime();
-						Date nowDate = new Date();
-						if (Utils.daysBetweenMidnight(voteDate, nowDate) == 0) {
-							List<String> voteInfo = (List<String>) plugin.getConfig().getStringList("thxVote");
-							for (String string : voteInfo) {
-								player.sendMessage(Utils.replacePlayerName(string, player));
-							}
-						} else {
-							Long days = Utils.daysBetweenMidnight(voteDate, nowDate);
-							if (days == 1) {
-								List<String> dayVote = (List<String>) plugin.getConfig().getStringList("dayVote");
-								for (String string : dayVote) {
-									player.sendMessage(Utils.replacePlayerName(string, player));
-								}
-							} else {
-								List<String> infoVote = (List<String>) plugin.getConfig().getStringList("daysVote");
-								for (String string : infoVote) {
-									player.sendMessage(Utils.replacePlayerName(string, player, days.toString()));
-								}
-							}
-							List<String> infoVote = plugin.getConfig().getStringList("infoVote");
-							for (String string : infoVote) {
-								player.sendMessage(Utils.replacePlayerName(string, player));
-							}
-						}
-					} else {
-						List<String> voteInfo = (List<String>) plugin.getConfig().getStringList("noVote");
-						for (String string : voteInfo) {
-							player.sendMessage(Utils.replacePlayerName(string, player));
-						}
-						List<String> infoVote = (List<String>) plugin.getConfig().getStringList("infoVote");
-						for (String string : infoVote) {
-							player.sendMessage(Utils.replacePlayerName(string, player));
-						}
-					}
-				}
-			}
-		}, 60L);
-	}
+        plugin.getServer().getScheduler().scheduleSyncDelayedTask(plugin, new Runnable() {
+            public void run() {
+                Player player = event.getPlayer();
+                if (player != null) {
+                    VoteData vote = database.find(VoteData.class).where(" minecraft_user like '" + player.getName() + "' order by id desc LIMIT 1").findUnique();
+                    if (vote != null) {
+                        Date voteDate = vote.getTime();
+                        Date nowDate = new Date();
+                        if (Utils.daysBetweenMidnight(voteDate, nowDate) == 0) {
+                            List<String> voteInfo = (List<String>) plugin.getConfig().getStringList("thxVote");
+                            for (String string : voteInfo) {
+                                player.sendMessage(Utils.replacePlayerName(string, player));
+                            }
+                        } else {
+                            Long days = Utils.daysBetweenMidnight(voteDate, nowDate);
+                            if (days == 1) {
+                                List<String> dayVote = (List<String>) plugin.getConfig().getStringList("dayVote");
+                                for (String string : dayVote) {
+                                    player.sendMessage(Utils.replacePlayerName(string, player));
+                                }
+                            } else {
+                                List<String> infoVote = (List<String>) plugin.getConfig().getStringList("daysVote");
+                                for (String string : infoVote) {
+                                    player.sendMessage(Utils.replacePlayerName(string, player, days.toString()));
+                                }
+                            }
+                            List<String> infoVote = plugin.getConfig().getStringList("infoVote");
+                            for (String string : infoVote) {
+                                player.sendMessage(Utils.replacePlayerName(string, player));
+                            }
+                        }
+                    } else {
+                        List<String> voteInfo = (List<String>) plugin.getConfig().getStringList("noVote");
+                        for (String string : voteInfo) {
+                            player.sendMessage(Utils.replacePlayerName(string, player));
+                        }
+                        List<String> infoVote = (List<String>) plugin.getConfig().getStringList("infoVote");
+                        for (String string : infoVote) {
+                            player.sendMessage(Utils.replacePlayerName(string, player));
+                        }
+                    }
+                }
+            }
+        }, 60L);
+    }
 
 }

@@ -8,6 +8,17 @@
 
 	<property name="main-class" value="com.github.calenria.nextvote.NextVote" />
 	
+	<taskdef resource="checkstyletask.properties" classpath="${lib.dir}/checkstyle.jar"/>
+	<taskdef name="findbugs" classname="edu.umd.cs.findbugs.anttask.FindBugsTask"/>
+	
+	<checkstyle config="docs/sun_checks.xml">
+	  <fileset dir="${src.dir}" includes="**/*.java"/>
+	  <formatter type="plain"/>
+	  <formatter type="xml" toFile="docs/checkstyle/checkstyle.xml"/>
+	</checkstyle>
+	
+	<property name="findbugs.home" value="docs/findbugs" />
+
 	<macrodef name="git-revision">
 		<attribute name="path" />
 		<attribute name="output" />
@@ -59,6 +70,13 @@
 				<attribute name="Version" value="${version}" />
 			</manifest>
 		</jar>
+		
+		
+		<findbugs home="${findbugs.home}" output="xml" outputFile="findbugs.xml" >
+			<sourcePath path="${src.dir}" />
+			<class location="${jar.dir}/${ant.project.name}.jar" />
+		</findbugs>
+		
 	</target>
 
 	<target name="run" depends="jar">
