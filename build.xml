@@ -1,12 +1,10 @@
-
 <project default="jar" name="NextVote">
 	<property name="base.dir" value="." />
 	<property name="src.dir" value="src" />
 	<property name="lib.dir" value="lib" />
 	<property name="build.dir" value="build" />
 	<property name="classes.dir" value="${build.dir}/classes" />
-	<!-- <property name="jar.dir"     value="${build.dir}/jar"/> -->
-	<property name="jar.dir" value="D:\Bukkit\plugins" />
+	<property name="jar.dir"     value="${build.dir}/jar"/>
 
 	<property name="main-class" value="com.github.calenria.nextvote.NextVote" />
 	
@@ -44,7 +42,7 @@
 
 	<target name="compile">
 		<mkdir dir="${classes.dir}" />
-		<javac srcdir="${src.dir}" destdir="${classes.dir}" includeantruntime="false" classpathref="classpath" />
+		<javac encoding="UTF-8" srcdir="${src.dir}" destdir="${classes.dir}" includeantruntime="false" classpathref="classpath" />
 		<copy todir="${classes.dir}">
 			<fileset dir="${base.dir}" includes="*.yml,*.properties" />
 		</copy>
