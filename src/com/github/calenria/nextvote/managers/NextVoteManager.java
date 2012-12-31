@@ -92,9 +92,6 @@ public class NextVoteManager {
 			broadcastMessage(translatedList);
 			return;
 		}
-		
-		System.out.println(vote.hasEcon());
-		
 		if (vote.hasEcon()) {
 			List<String> msgList = plugin.config.getBroadcastMessageEcon();
 			for (String msg : msgList) {

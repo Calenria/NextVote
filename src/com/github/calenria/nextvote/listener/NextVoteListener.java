@@ -61,9 +61,11 @@ public class NextVoteListener implements Listener {
 
 	@EventHandler(priority = EventPriority.NORMAL)
 	public void onVotifierEvent(VotifierEvent event) {
-
 		Vote vote = event.getVote();
 		String user = vote.getUsername();
+		
+		log.info("Votifier Event für " + user);
+		
 		if (user.equalsIgnoreCase("Test Notification")) {
 			user = "Calenria";
 		}
