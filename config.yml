@@ -74,3 +74,12 @@ topItems:
 - '277'
 - '278'
 - '397:1'
+firework: true
+fireworkColors:
+- green
+- yellow
+fireworkFadeColors:
+- red
+- silver
+fireworkType: CREEPER
+fireworkPower: 3

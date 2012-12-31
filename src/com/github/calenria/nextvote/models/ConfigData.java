@@ -41,11 +41,16 @@ public class ConfigData {
 	private List<String> broadcastMessageItem;
 	private List<String> broadcastMessageEcon;
 	private List<String> broadcastMessageItemEcon;
+	private List<String> fireworkColors;
+	private List<String> fireworkFadeColors;
+	private String fireworkType;
+	private int fireworkPower;
+	private boolean firework;
 
 	private boolean onlyEcon;
 	private boolean fixEcon;
 	private int fixEconAmmount;
-	
+
 	public ConfigData(NextVote plugin) {
 		FileConfiguration config = plugin.getConfig();
 		setLang(config.getString("lang"));
@@ -79,16 +84,22 @@ public class ConfigData {
 		setOnlyEcon(config.getBoolean("onlyEcon"));
 		setFixEcon(config.getBoolean("fixEcon"));
 		setFixEconAmmount(config.getInt("fixEconAmmount"));
+		setFireworkColors(config.getStringList("fireworkColors"));
+		setFireworkFadeColors(config.getStringList("fireworkFadeColors"));
+		setFireworkType(config.getString("fireworkType"));
+		setFireworkPower(config.getInt("fireworkPower"));
+		setFirework(config.getBoolean("firework"));
 	}
 
 	public void setBroadcastMessageItemEcon(List<String> broadcastMessageItemEcon) {
 		this.broadcastMessageItemEcon = broadcastMessageItemEcon;
-		
+
 	}
-	
+
 	public List<String> getBroadcastMessageItemEcon() {
 		return broadcastMessageItemEcon;
 	}
+
 	/**
 	 * @return the lang
 	 */
@@ -517,7 +528,8 @@ public class ConfigData {
 	}
 
 	/**
-	 * @param onlyEcon the onlyEcon to set
+	 * @param onlyEcon
+	 *            the onlyEcon to set
 	 */
 	public void setOnlyEcon(boolean onlyEcon) {
 		this.onlyEcon = onlyEcon;
@@ -531,7 +543,8 @@ public class ConfigData {
 	}
 
 	/**
-	 * @param fixEcon the fixEcon to set
+	 * @param fixEcon
+	 *            the fixEcon to set
 	 */
 	public void setFixEcon(boolean fixEcon) {
 		this.fixEcon = fixEcon;
@@ -545,10 +558,86 @@ public class ConfigData {
 	}
 
 	/**
-	 * @param fixEconAmmount the fixEconAmmount to set
+	 * @param fixEconAmmount
+	 *            the fixEconAmmount to set
 	 */
 	public void setFixEconAmmount(int fixEconAmmount) {
 		this.fixEconAmmount = fixEconAmmount;
+	}
+
+	/**
+	 * @return the fireworkColors
+	 */
+	public List<String> getFireworkColors() {
+		return fireworkColors;
+	}
+
+	/**
+	 * @param fireworkColors
+	 *            the fireworkColors to set
+	 */
+	public void setFireworkColors(List<String> fireworkColors) {
+		this.fireworkColors = fireworkColors;
+	}
+
+	/**
+	 * @return the fireworkFadeColors
+	 */
+	public List<String> getFireworkFadeColors() {
+		return fireworkFadeColors;
+	}
+
+	/**
+	 * @param fireworkFadeColors
+	 *            the fireworkFadeColors to set
+	 */
+	public void setFireworkFadeColors(List<String> fireworkFadeColors) {
+		this.fireworkFadeColors = fireworkFadeColors;
+	}
+
+	/**
+	 * @return the fireworkType
+	 */
+	public String getFireworkType() {
+		return fireworkType;
+	}
+
+	/**
+	 * @param fireworkType
+	 *            the fireworkType to set
+	 */
+	public void setFireworkType(String fireworkType) {
+		this.fireworkType = fireworkType;
+	}
+
+	/**
+	 * @return the fireworkPower
+	 */
+	public int getFireworkPower() {
+		return fireworkPower;
+	}
+
+	/**
+	 * @param fireworkPower
+	 *            the fireworkPower to set
+	 */
+	public void setFireworkPower(int fireworkPower) {
+		this.fireworkPower = fireworkPower;
+	}
+
+	/**
+	 * @return the firework
+	 */
+	public boolean isFirework() {
+		return firework;
+	}
+
+	/**
+	 * @param firework
+	 *            the firework to set
+	 */
+	public void setFirework(boolean firework) {
+		this.firework = firework;
 	}
 
 }

@@ -13,14 +13,21 @@ import javax.persistence.PersistenceException;
 
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
+import org.bukkit.Color;
+import org.bukkit.FireworkEffect;
+import org.bukkit.FireworkEffect.Type;
+import org.bukkit.Material;
 import org.bukkit.OfflinePlayer;
+import org.bukkit.entity.Firework;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.PlayerInventory;
+import org.bukkit.inventory.meta.FireworkMeta;
 
 import com.avaje.ebean.EbeanServer;
 import com.github.calenria.nextvote.NextVote;
 import com.github.calenria.nextvote.NextVoteRadomItem;
+import com.github.calenria.nextvote.Utils;
 import com.github.calenria.nextvote.models.VoteData;
 import com.github.calenria.nextvote.models.VoteHistory;
 
@@ -47,7 +54,6 @@ public class NextVoteManager {
 			log.info(String.format(plugin.messages.getString("player.never.played"), player));
 			return;
 		}
-
 		VoteHistory vote = new VoteHistory();
 		vote.setMinecraftUser(player);
 		if (plugin.config.isFixEcon() || plugin.config.isOnlyEcon()) {
@@ -147,10 +153,40 @@ public class NextVoteManager {
 		if (slot != -1 && vote.hasItem()) {
 			ItemStack itemstack = new ItemStack(vote.getMaterial(), vote.getAmmount(), vote.getDamage());
 			pInv.addItem(itemstack);
+
+			if (plugin.config.isFirework()) {
+				doFireWork(player);
+			}
+
 			return true;
 		} else {
 			return false;
 		}
+	}
+
+	private void doFireWork(final Player player) {
+		plugin.getServer().getScheduler().runTaskLaterAsynchronously(plugin, new Runnable() {
+			public void run() {
+				Firework firework = player.getWorld().spawn(player.getLocation(), Firework.class);
+				ItemStack i = new ItemStack(Material.FIREWORK);
+				FireworkMeta fm = (FireworkMeta) i.getItemMeta();
+
+				List<Color> c = new ArrayList<Color>();
+				List<String> colors = plugin.config.getFireworkColors();
+				for (String color : colors) {
+					c.add(Utils.colorFireworkMap.get(color.toUpperCase().trim()));
+				}
+				List<Color> f = new ArrayList<Color>();
+				List<String> fades = plugin.config.getFireworkFadeColors();
+				for (String fade : fades) {
+					f.add(Utils.colorFireworkMap.get(fade.toUpperCase().trim()));
+				}
+				FireworkEffect e = FireworkEffect.builder().flicker(true).withColor(c).withFade(f).with(Type.valueOf(plugin.config.getFireworkType())).trail(true).build();
+				fm.addEffect(e);
+				fm.setPower(plugin.config.getFireworkPower());
+				firework.setFireworkMeta(fm);
+			}
+		}, 20L * 5L);
 	}
 
 	public void currVoteSheduler() {

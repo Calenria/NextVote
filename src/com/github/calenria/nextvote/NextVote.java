@@ -40,6 +40,7 @@ import org.bukkit.plugin.RegisteredServiceProvider;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import com.github.calenria.nextvote.commands.CommandHandler;
+import com.github.calenria.nextvote.commands.VoteCommands;
 import com.github.calenria.nextvote.listener.NextVoteListener;
 import com.github.calenria.nextvote.managers.NextVoteManager;
 import com.github.calenria.nextvote.models.ConfigData;
@@ -185,6 +186,8 @@ public class NextVote extends JavaPlugin implements Listener {
 
 		CommandsManagerRegistration cmdRegister = new CommandsManagerRegistration(this, this.commands);
 		cmdRegister.register(CommandHandler.class);
+		cmdRegister.register(VoteCommands.class);
+		
 
 	}
 

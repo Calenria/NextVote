@@ -19,7 +19,6 @@
 package com.github.calenria.nextvote.listener;
 
 import java.sql.Timestamp;
-import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 import java.util.logging.Level;
@@ -63,12 +62,9 @@ public class NextVoteListener implements Listener {
 	public void onVotifierEvent(VotifierEvent event) {
 		Vote vote = event.getVote();
 		String user = vote.getUsername();
-		
-		log.info("Votifier Event für " + user);
-		
-		if (user.equalsIgnoreCase("Test Notification")) {
-			user = "Calenria";
-		}
+
+		log.info(String.format(plugin.messages.getString("player.vote.event"), user));
+
 		OfflinePlayer thePlayer = Bukkit.getOfflinePlayer(user);
 		if (!thePlayer.hasPlayedBefore()) {
 			log.info(String.format(plugin.messages.getString("player.never.played"), user));
@@ -86,13 +82,11 @@ public class NextVoteListener implements Listener {
 
 	@EventHandler(ignoreCancelled = true, priority = EventPriority.LOWEST)
 	public void onPlayerJoinEvent(final PlayerJoinEvent event) {
-
 		if (!event.getPlayer().hasPlayedBefore()) {
 			return;
 		}
 
 		plugin.getServer().getScheduler().scheduleSyncDelayedTask(plugin, new Runnable() {
-			@SuppressWarnings("deprecation")
 			public void run() {
 				Player player = event.getPlayer();
 				if (player != null) {
@@ -100,57 +94,40 @@ public class NextVoteListener implements Listener {
 					if (vote != null) {
 						Date voteDate = vote.getTime();
 						Date nowDate = new Date();
-						if (voteDate.getDay() == nowDate.getDay() && voteDate.getMonth() == nowDate.getMonth() && voteDate.getYear() == nowDate.getYear()) {
-							@SuppressWarnings("unchecked")
-							List<String> voteInfo = (List<String>) plugin.getConfig().getList("thxVote");
+						if (Utils.daysBetweenMidnight(voteDate, nowDate) == 0) {
+							List<String> voteInfo = (List<String>) plugin.getConfig().getStringList("thxVote");
 							for (String string : voteInfo) {
 								player.sendMessage(Utils.replacePlayerName(string, player));
 							}
 						} else {
-							Calendar voteCal = Calendar.getInstance();
-							voteCal.setTime(voteDate);
-							Calendar nowCal = Calendar.getInstance();
-							nowCal.setTime(new Date());
-							Long days = Utils.daysBetween(voteCal, nowCal);
-
-							if (days == 2) {
-								@SuppressWarnings("unchecked")
-								List<String> dayVote = (List<String>) plugin.getConfig().getList("dayVote");
+							Long days = Utils.daysBetweenMidnight(voteDate, nowDate);
+							if (days == 1) {
+								List<String> dayVote = (List<String>) plugin.getConfig().getStringList("dayVote");
 								for (String string : dayVote) {
 									player.sendMessage(Utils.replacePlayerName(string, player));
 								}
 							} else {
-								@SuppressWarnings("unchecked")
-								List<String> infoVote = (List<String>) plugin.getConfig().getList("daysVote");
+								List<String> infoVote = (List<String>) plugin.getConfig().getStringList("daysVote");
 								for (String string : infoVote) {
 									player.sendMessage(Utils.replacePlayerName(string, player, days.toString()));
 								}
 							}
-
-							@SuppressWarnings("unchecked")
-							List<String> infoVote = (List<String>) plugin.getConfig().getList("infoVote");
+							List<String> infoVote = plugin.getConfig().getStringList("infoVote");
 							for (String string : infoVote) {
 								player.sendMessage(Utils.replacePlayerName(string, player));
 							}
 						}
-
 					} else {
-						@SuppressWarnings("unchecked")
-						List<String> voteInfo = (List<String>) plugin.getConfig().getList("noVote");
+						List<String> voteInfo = (List<String>) plugin.getConfig().getStringList("noVote");
 						for (String string : voteInfo) {
 							player.sendMessage(Utils.replacePlayerName(string, player));
 						}
-
-						@SuppressWarnings("unchecked")
-						List<String> infoVote = (List<String>) plugin.getConfig().getList("infoVote");
+						List<String> infoVote = (List<String>) plugin.getConfig().getStringList("infoVote");
 						for (String string : infoVote) {
 							player.sendMessage(Utils.replacePlayerName(string, player));
 						}
-
 					}
-
 				}
-
 			}
 		}, 60L);
 	}

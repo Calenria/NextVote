@@ -24,9 +24,12 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.util.Calendar;
+import java.util.Date;
+import java.util.GregorianCalendar;
 import java.util.HashMap;
 
 import org.bukkit.ChatColor;
+import org.bukkit.Color;
 import org.bukkit.entity.Player;
 
 public class Utils {
@@ -57,7 +60,28 @@ public class Utils {
 		colorMap.put("<WHITE>", ChatColor.WHITE);
 		colorMap.put("<YELLOW>", ChatColor.YELLOW);
 	}
-	
+	final public static HashMap<String, Color> colorFireworkMap = new HashMap<String, Color>() {
+		private static final long serialVersionUID = 1L;
+		{
+			put("AQUA", Color.AQUA);
+			put("BLACK", Color.BLACK);
+			put("BLUE", Color.BLUE);
+			put("BLUE", Color.FUCHSIA);
+			put("GRAY", Color.GRAY);
+			put("GREEN", Color.GREEN);
+			put("LIME", Color.LIME);
+			put("MAROON", Color.MAROON);
+			put("NAVY", Color.NAVY);
+			put("OLIVE", Color.OLIVE);
+			put("ORANGE", Color.ORANGE);
+			put("PURPLE", Color.PURPLE);
+			put("RED", Color.RED);
+			put("SILVER", Color.SILVER);
+			put("TEAL", Color.TEAL);
+			put("WHITE", Color.WHITE);
+			put("YELLOW", Color.YELLOW);
+		}
+	};
 	public static String replaceColors(String text) {
 		text = text.trim();
 		fillColorMap();
@@ -113,7 +137,32 @@ public class Utils {
 		}
 		return daysBetween;
 	}
+	
+	public static long daysBetweenMidnight(Date startDate, Date endDate) {
+		Calendar startCal = new GregorianCalendar();
+		startCal.setTime(startDate);
+		startCal.set(Calendar.HOUR_OF_DAY, 0);
+		startCal.set(Calendar.MINUTE, 0);
+		startCal.set(Calendar.SECOND, 0);
+		startCal.set(Calendar.MILLISECOND, 0);
 
+		Calendar endCal = new GregorianCalendar();
+		endCal.setTime(endDate);
+		endCal.set(Calendar.HOUR_OF_DAY, 0);
+		endCal.set(Calendar.MINUTE, 0);
+		endCal.set(Calendar.SECOND, 0);
+		endCal.set(Calendar.MILLISECOND, 0);
+
+		Calendar date = (Calendar) startCal.clone();
+
+		long daysBetween = 0;
+		while (date.before(endCal)) {
+			date.add(Calendar.DAY_OF_MONTH, 1);
+			daysBetween++;
+		}
+		return daysBetween;
+	}
+	
 	public static void copy(InputStream input, File target) throws IOException {
 		if (target.exists()) {
 			throw new IOException("File already exists!");
