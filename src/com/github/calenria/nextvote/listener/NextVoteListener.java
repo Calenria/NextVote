@@ -15,7 +15,6 @@
  * along with this program. If not, see
  * <http://www.gnu.org/licenses/lgpl-3.0.html>.
  */
-
 package com.github.calenria.nextvote.listener;
 
 import java.sql.Timestamp;
@@ -59,8 +58,8 @@ public class NextVoteListener implements Listener {
     /**
      * Bukkit Datenbank.
      */
-    private EbeanServer    database = null;
-    
+    private EbeanServer   database = null;
+
     /**
      * Registriert die Eventhandler und erstellt die Datenbank falls nicht vorhanden.
      * 

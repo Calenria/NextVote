@@ -1,7 +1,23 @@
+/*
+ * Copyright (C) 2012 Calenria <https://github.com/Calenria/> and contributors
+ * 
+ * This program is free software: you can redistribute it and/or modify it under
+ * the terms of the GNU Lesser General Public License as published by the Free
+ * Software Foundation; either version 3.0 of the License, or (at your option)
+ * any later version.
+ * 
+ * This program is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ * FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public License for more
+ * details.
+ * 
+ * You should have received a copy of the GNU Lesser General Public License
+ * along with this program. If not, see
+ * <http://www.gnu.org/licenses/lgpl-3.0.html>.
+ */
 package com.github.calenria.nextvote.models;
 
 import java.util.List;
-import java.util.logging.Logger;
 
 import org.bukkit.configuration.file.FileConfiguration;
 
@@ -9,49 +25,46 @@ import com.github.calenria.nextvote.NextVote;
 
 public class ConfigData {
 
-    @SuppressWarnings("unused")
-    private static Logger log = Logger.getLogger("Minecraft");
+    private String       lang;
+    private List<String> voteInfo;
+    private List<String> thxVote;
+    private List<String> noVote;
+    private List<String> dayVote;
+    private List<String> daysVote;
+    private List<String> infoVote;
+    private boolean      showBroadcast;
+    private boolean      bonusItem;
+    private int          bonusChance;
+    private int          poorChance;
+    private int          averageChance;
+    private int          goodChance;
+    private int          topChance;
+    private int          poorMinAmount;
+    private int          poorMaxAmount;
+    private int          averageMinAmount;
+    private int          averageMaxAmount;
+    private int          goodMinAmount;
+    private int          goodMaxAmount;
+    private int          topMinAmount;
+    private int          topMaxAmount;
+    private List<String> poorItems;
+    private List<String> averageItems;
+    private List<String> goodItems;
+    private List<String> topItems;
+    private List<String> broadcastMessageItem;
+    private List<String> broadcastMessageEcon;
+    private List<String> broadcastMessageItemEcon;
+    private List<String> fireworkColors;
+    private List<String> fireworkFadeColors;
+    private String       fireworkType;
+    private int          fireworkPower;
+    private boolean      firework;
 
-    private String        lang;
-    private List<String>  voteInfo;
-    private List<String>  thxVote;
-    private List<String>  noVote;
-    private List<String>  dayVote;
-    private List<String>  daysVote;
-    private List<String>  infoVote;
-    private boolean       showBroadcast;
-    private boolean       bonusItem;
-    private int           bonusChance;
-    private int           poorChance;
-    private int           averageChance;
-    private int           goodChance;
-    private int           topChance;
-    private int           poorMinAmount;
-    private int           poorMaxAmount;
-    private int           averageMinAmount;
-    private int           averageMaxAmount;
-    private int           goodMinAmount;
-    private int           goodMaxAmount;
-    private int           topMinAmount;
-    private int           topMaxAmount;
-    private List<String>  poorItems;
-    private List<String>  averageItems;
-    private List<String>  goodItems;
-    private List<String>  topItems;
-    private List<String>  broadcastMessageItem;
-    private List<String>  broadcastMessageEcon;
-    private List<String>  broadcastMessageItemEcon;
-    private List<String>  fireworkColors;
-    private List<String>  fireworkFadeColors;
-    private String        fireworkType;
-    private int           fireworkPower;
-    private boolean       firework;
+    private boolean      onlyEcon;
+    private boolean      fixEcon;
+    private int          fixEconAmmount;
 
-    private boolean       onlyEcon;
-    private boolean       fixEcon;
-    private int           fixEconAmmount;
-
-    public ConfigData(NextVote plugin) {
+    public ConfigData(final NextVote plugin) {
         FileConfiguration config = plugin.getConfig();
         setLang(config.getString("lang"));
         setAverageItems(config.getStringList("averageItems"));
