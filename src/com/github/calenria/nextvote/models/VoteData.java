@@ -29,52 +29,52 @@ import javax.persistence.Table;
 public class VoteData {
 
     @Id
-    private Integer id;
+    private Integer   id;
 
-    private String minecraftUser;
+    private String    minecraftUser;
 
     private Timestamp time;
-    private String ip;
-    private String service;
+    private String    ip;
+    private String    service;
 
     public Integer getId() {
         return id;
-    }
-
-    public void setId(Integer id) {
-        this.id = id;
-    }
-
-    public String getMinecraftUser() {
-        return minecraftUser;
-    }
-
-    public void setMinecraftUser(String player) {
-        this.minecraftUser = player;
-    }
-
-    public Timestamp getTime() {
-        return time;
-    }
-
-    public void setTime(Timestamp time) {
-        this.time = time;
     }
 
     public String getIp() {
         return ip;
     }
 
-    public void setIp(String ip) {
-        this.ip = ip;
+    public String getMinecraftUser() {
+        return minecraftUser;
     }
 
     public String getService() {
         return service;
     }
 
+    public Timestamp getTime() {
+        return time;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public void setIp(String ip) {
+        this.ip = ip;
+    }
+
+    public void setMinecraftUser(String player) {
+        this.minecraftUser = player;
+    }
+
     public void setService(String service) {
         this.service = service;
+    }
+
+    public void setTime(Timestamp time) {
+        this.time = time;
     }
 
 }

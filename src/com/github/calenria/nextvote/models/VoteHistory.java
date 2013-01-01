@@ -11,27 +11,27 @@ import javax.persistence.Version;
 @Table(name = "skymine_vote_history")
 public class VoteHistory {
     @Id
-    private Integer id;
+    private Integer   id;
 
-    private String minecraftUser;
+    private String    minecraftUser;
 
     private Timestamp time;
 
-    private int ammount = 0;
+    private int       ammount     = 0;
 
-    private short damage = 0;
-    private int material = 0;
+    private short     damage      = 0;
+    private int       material    = 0;
 
-    private String name;
+    private String    name;
 
-    private String localName;
+    private String    localName;
 
-    private boolean econ = false;
-    private boolean item = false;
-    private double econAmmount = 0;
+    private boolean   econ        = false;
+    private boolean   item        = false;
+    private double    econAmmount = 0;
 
-    private boolean paid = false;
-    private boolean paidEcon = false;
+    private boolean   paid        = false;
+    private boolean   paidEcon    = false;
 
     @Version
     private Timestamp lastUpdate;
@@ -51,6 +51,20 @@ public class VoteHistory {
     }
 
     /**
+     * @return the econ
+     */
+    public boolean getEcon() {
+        return econ;
+    }
+
+    /**
+     * @return the econAmmount
+     */
+    public double getEconAmmount() {
+        return econAmmount;
+    }
+
+    /**
      * @return the id
      */
     public Integer getId() {
@@ -58,10 +72,10 @@ public class VoteHistory {
     }
 
     /**
-     * set the id
+     * @return the item
      */
-    public void setId(Integer id) {
-        this.id = id;
+    public boolean getItem() {
+        return item;
     }
 
     /**
@@ -79,6 +93,13 @@ public class VoteHistory {
     }
 
     /**
+     * @return the material
+     */
+    public int getMaterial() {
+        return material;
+    }
+
+    /**
      * @return the minecraftUser
      */
     public String getMinecraftUser() {
@@ -90,6 +111,20 @@ public class VoteHistory {
      */
     public String getName() {
         return name;
+    }
+
+    /**
+     * @return the paid
+     */
+    public boolean getPaid() {
+        return paid;
+    }
+
+    /**
+     * @return the econ
+     */
+    public boolean getPaidEcon() {
+        return paidEcon;
     }
 
     /**
@@ -107,17 +142,10 @@ public class VoteHistory {
     }
 
     /**
-     * @return the econ
+     * @return the item
      */
-    public boolean isEcon() {
-        return econ;
-    }
-
-    /**
-     * @return the econ
-     */
-    public boolean getEcon() {
-        return econ;
+    public boolean hasItem() {
+        return item;
     }
 
     /**
@@ -130,14 +158,28 @@ public class VoteHistory {
     /**
      * @return the econ
      */
-    public boolean isPaidEcon() {
-        return paidEcon;
+    public boolean isEcon() {
+        return econ;
+    }
+
+    /**
+     * @return the item
+     */
+    public boolean isItem() {
+        return item;
+    }
+
+    /**
+     * @return the paid
+     */
+    public boolean isPaid() {
+        return paid;
     }
 
     /**
      * @return the econ
      */
-    public boolean getPaidEcon() {
+    public boolean isPaidEcon() {
         return paidEcon;
     }
 
@@ -166,11 +208,26 @@ public class VoteHistory {
     }
 
     /**
-     * @param econ
-     *            the econ to set
+     * @param d
+     *            the econAmmount to set
      */
-    public void setPaidEcon(boolean paidEcon) {
-        this.paidEcon = paidEcon;
+    public void setEconAmmount(double d) {
+        this.econAmmount = d;
+    }
+
+    /**
+     * set the id
+     */
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    /**
+     * @param item
+     *            the item to set
+     */
+    public void setItem(boolean item) {
+        this.item = item;
     }
 
     /**
@@ -190,6 +247,14 @@ public class VoteHistory {
     }
 
     /**
+     * @param material
+     *            the material to set
+     */
+    public void setMaterial(int material) {
+        this.material = material;
+    }
+
+    /**
      * @param minecraftUser
      *            the minecraftUser to set
      */
@@ -206,72 +271,6 @@ public class VoteHistory {
     }
 
     /**
-     * @param time
-     *            the time to set
-     */
-    public void setTime(Timestamp time) {
-        this.time = time;
-    }
-
-    /**
-     * @return the econAmmount
-     */
-    public double getEconAmmount() {
-        return econAmmount;
-    }
-
-    /**
-     * @param d
-     *            the econAmmount to set
-     */
-    public void setEconAmmount(double d) {
-        this.econAmmount = d;
-    }
-
-    /**
-     * @return the item
-     */
-    public boolean hasItem() {
-        return item;
-    }
-
-    /**
-     * @return the item
-     */
-    public boolean isItem() {
-        return item;
-    }
-
-    /**
-     * @return the item
-     */
-    public boolean getItem() {
-        return item;
-    }
-
-    /**
-     * @param item
-     *            the item to set
-     */
-    public void setItem(boolean item) {
-        this.item = item;
-    }
-
-    /**
-     * @return the paid
-     */
-    public boolean isPaid() {
-        return paid;
-    }
-
-    /**
-     * @return the paid
-     */
-    public boolean getPaid() {
-        return paid;
-    }
-
-    /**
      * @param paid
      *            the paid to set
      */
@@ -280,17 +279,18 @@ public class VoteHistory {
     }
 
     /**
-     * @return the material
+     * @param econ
+     *            the econ to set
      */
-    public int getMaterial() {
-        return material;
+    public void setPaidEcon(boolean paidEcon) {
+        this.paidEcon = paidEcon;
     }
 
     /**
-     * @param material
-     *            the material to set
+     * @param time
+     *            the time to set
      */
-    public void setMaterial(int material) {
-        this.material = material;
+    public void setTime(Timestamp time) {
+        this.time = time;
     }
 }

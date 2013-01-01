@@ -5,12 +5,12 @@
  * the terms of the GNU Lesser General Public License as published by the Free
  * Software Foundation; either version 3.0 of the License, or (at your option)
  * any later version.
- * 
+ *
  * This program is distributed in the hope that it will be useful, but WITHOUT
  * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
  * FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public License for more
  * details.
- * 
+ *
  * You should have received a copy of the GNU Lesser General Public License
  * along with this program. If not, see
  * <http://www.gnu.org/licenses/lgpl-3.0.html>.
@@ -32,105 +32,131 @@ import org.bukkit.ChatColor;
 import org.bukkit.Color;
 import org.bukkit.entity.Player;
 
-public class Utils {
+/**
+ * Utility Klasse für alles mögliche.
+ * 
+ * @author Calenria
+ */
+public final class Utils {
+    /**
+     * 1 Sekunden.
+     */
+    public static final long                       TASK_ONE_SECOND    = 20L;
 
-    private static HashMap<String, ChatColor> colorMap = new HashMap<String, ChatColor>();
+    /**
+     * 3 Sekunden.
+     */
+    public static final long                       TASK_THREE_SECONDS = 60L;
 
-    public static void fillColorMap() {
-        colorMap.put("<AQUA>", ChatColor.AQUA);
-        colorMap.put("<BLACK>", ChatColor.BLACK);
-        colorMap.put("<BLUE>", ChatColor.BLUE);
-        colorMap.put("<BOLD>", ChatColor.BOLD);
-        colorMap.put("<DARK_AQUA>", ChatColor.DARK_AQUA);
-        colorMap.put("<DARK_BLUE>", ChatColor.DARK_BLUE);
-        colorMap.put("<DARK_GRAY>", ChatColor.DARK_GRAY);
-        colorMap.put("<DARK_GREEN>", ChatColor.DARK_GREEN);
-        colorMap.put("<DARK_PURPLE>", ChatColor.DARK_PURPLE);
-        colorMap.put("<DARK_RED>", ChatColor.DARK_RED);
-        colorMap.put("<GOLD>", ChatColor.GOLD);
-        colorMap.put("<GRAY>", ChatColor.GRAY);
-        colorMap.put("<GREEN>", ChatColor.GREEN);
-        colorMap.put("<ITALIC>", ChatColor.ITALIC);
-        colorMap.put("<LIGHT_PURPLE>", ChatColor.LIGHT_PURPLE);
-        colorMap.put("<MAGIC>", ChatColor.MAGIC);
-        colorMap.put("<RED>", ChatColor.RED);
-        colorMap.put("<RESET>", ChatColor.RESET);
-        colorMap.put("<STRIKETHROUGH>", ChatColor.STRIKETHROUGH);
-        colorMap.put("<UNDERLINE>", ChatColor.UNDERLINE);
-        colorMap.put("<WHITE>", ChatColor.WHITE);
-        colorMap.put("<YELLOW>", ChatColor.YELLOW);
-    }
+    /**
+     * 1 Minute.
+     */
+    public static final long                       TASK_ONE_MINUTE    = 1200L;
 
-    final public static HashMap<String, Color> colorFireworkMap = new HashMap<String, Color>() {
-        private static final long serialVersionUID = 1L;
-        {
-            put("AQUA", Color.AQUA);
-            put("BLACK", Color.BLACK);
-            put("BLUE", Color.BLUE);
-            put("BLUE", Color.FUCHSIA);
-            put("GRAY", Color.GRAY);
-            put("GREEN", Color.GREEN);
-            put("LIME", Color.LIME);
-            put("MAROON", Color.MAROON);
-            put("NAVY", Color.NAVY);
-            put("OLIVE", Color.OLIVE);
-            put("ORANGE", Color.ORANGE);
-            put("PURPLE", Color.PURPLE);
-            put("RED", Color.RED);
-            put("SILVER", Color.SILVER);
-            put("TEAL", Color.TEAL);
-            put("WHITE", Color.WHITE);
-            put("YELLOW", Color.YELLOW);
+    /**
+     * FileBuffer.
+     */
+    private static final int                       BUFFER             = 1024;
+
+    /**
+     * HashMap mit allen Minecraft Farben.
+     */
+    public static final HashMap<String, ChatColor> COLORMAP           = new HashMap<String, ChatColor>() {
+                                                                          private static final long serialVersionUID = 1L;
+                                                                          {
+                                                                              put("<AQUA>", ChatColor.AQUA);
+                                                                              put("<BLACK>", ChatColor.BLACK);
+                                                                              put("<BLUE>", ChatColor.BLUE);
+                                                                              put("<BOLD>", ChatColor.BOLD);
+                                                                              put("<DARK_AQUA>", ChatColor.DARK_AQUA);
+                                                                              put("<DARK_BLUE>", ChatColor.DARK_BLUE);
+                                                                              put("<DARK_GRAY>", ChatColor.DARK_GRAY);
+                                                                              put("<DARK_GREEN>", ChatColor.DARK_GREEN);
+                                                                              put("<DARK_PURPLE>", ChatColor.DARK_PURPLE);
+                                                                              put("<DARK_RED>", ChatColor.DARK_RED);
+                                                                              put("<GOLD>", ChatColor.GOLD);
+                                                                              put("<GRAY>", ChatColor.GRAY);
+                                                                              put("<GREEN>", ChatColor.GREEN);
+                                                                              put("<ITALIC>", ChatColor.ITALIC);
+                                                                              put("<LIGHT_PURPLE>", ChatColor.LIGHT_PURPLE);
+                                                                              put("<MAGIC>", ChatColor.MAGIC);
+                                                                              put("<RED>", ChatColor.RED);
+                                                                              put("<RESET>", ChatColor.RESET);
+                                                                              put("<STRIKETHROUGH>", ChatColor.STRIKETHROUGH);
+                                                                              put("<UNDERLINE>", ChatColor.UNDERLINE);
+                                                                              put("<WHITE>", ChatColor.WHITE);
+                                                                              put("<YELLOW>", ChatColor.YELLOW);
+                                                                          }
+                                                                      };
+
+    /**
+     * HashMap mit allen Minecraft Feuerwerks Farben.
+     */
+    public static final HashMap<String, Color>     COLORFIREWORKMAP   = new HashMap<String, Color>() {
+                                                                          private static final long serialVersionUID = 1L;
+                                                                          {
+                                                                              put("AQUA", Color.AQUA);
+                                                                              put("BLACK", Color.BLACK);
+                                                                              put("BLUE", Color.BLUE);
+                                                                              put("BLUE", Color.FUCHSIA);
+                                                                              put("GRAY", Color.GRAY);
+                                                                              put("GREEN", Color.GREEN);
+                                                                              put("LIME", Color.LIME);
+                                                                              put("MAROON", Color.MAROON);
+                                                                              put("NAVY", Color.NAVY);
+                                                                              put("OLIVE", Color.OLIVE);
+                                                                              put("ORANGE", Color.ORANGE);
+                                                                              put("PURPLE", Color.PURPLE);
+                                                                              put("RED", Color.RED);
+                                                                              put("SILVER", Color.SILVER);
+                                                                              put("TEAL", Color.TEAL);
+                                                                              put("WHITE", Color.WHITE);
+                                                                              put("YELLOW", Color.YELLOW);
+                                                                          }
+                                                                      };
+
+    /**
+     * Einfache Methode um Dateien zu Kopieren.
+     * 
+     * @param input
+     *            Quellstream
+     * @param target
+     *            Zieldatei
+     * @throws IOException
+     *             Falls Zieldatei Existiert oder Fehler beim erstellen der Zieldatei
+     */
+    public static void copy(final InputStream input, final File target) throws IOException {
+        if (target.exists()) {
+            throw new IOException("File already exists!");
         }
-    };
 
-    public static String replaceColors(String text) {
-        text = text.trim();
-        fillColorMap();
-        for (String replKey : colorMap.keySet()) {
-            text = text.replaceAll(replKey.toLowerCase(), String.valueOf(colorMap.get(replKey).toString()));
+        if (!target.createNewFile()) {
+            throw new IOException("Failed at creating new empty file!");
+        }
+        byte[] buffer = new byte[BUFFER];
+
+        OutputStream output = new FileOutputStream(target);
+
+        int realLength;
+
+        while ((realLength = input.read(buffer)) > 0) {
+            output.write(buffer, 0, realLength);
         }
 
-        return ChatColor.translateAlternateColorCodes('&', text);
+        output.flush();
+        output.close();
     }
 
-    public static String replacePlayerName(String text, Player player) {
-        text = text.trim();
-        text = text.replaceAll("<player>", player.getName());
-        text = text.replaceAll("<playerdn>", player.getDisplayName());
-        text = replaceColors(text);
-        return text;
-    }
-
-    public static String replacePlayerName(String text, Player player, String days) {
-        text = text.trim();
-        text = text.replaceAll("<days>", days);
-        text = replacePlayerName(text, player);
-        text = replaceColors(text);
-        return text;
-    }
-
-    public static String implodeArray(String[] inputArray, String glueString) {
-
-        /** Output variable */
-        String output = "";
-
-        if (inputArray.length > 0) {
-            StringBuilder sb = new StringBuilder();
-            sb.append(inputArray[0]);
-
-            for (int i = 1; i < inputArray.length; i++) {
-                sb.append(glueString);
-                sb.append(inputArray[i]);
-            }
-
-            output = sb.toString();
-        }
-
-        return output;
-    }
-
-    public static long daysBetween(Calendar startDate, Calendar endDate) {
+    /**
+     * Berechnet die Tage zwischen zwei Daten.
+     * 
+     * @param startDate
+     *            Start Datum
+     * @param endDate
+     *            End Datum
+     * @return long Anzahl der Tage
+     */
+    public static long daysBetween(final Calendar startDate, final Calendar endDate) {
         Calendar date = (Calendar) startDate.clone();
         long daysBetween = 0;
         while (date.before(endDate)) {
@@ -140,7 +166,16 @@ public class Utils {
         return daysBetween;
     }
 
-    public static long daysBetweenMidnight(Date startDate, Date endDate) {
+    /**
+     * Berechnet die Tage zwischen zwei Tagen jeweils ab Mitternacht.
+     * 
+     * @param startDate
+     *            Start Datum
+     * @param endDate
+     *            End Datum
+     * @return long Anzahl der Tage
+     */
+    public static long daysBetweenMidnight(final Date startDate, final Date endDate) {
         Calendar startCal = new GregorianCalendar();
         startCal.setTime(startDate);
         startCal.set(Calendar.HOUR_OF_DAY, 0);
@@ -165,27 +200,85 @@ public class Utils {
         return daysBetween;
     }
 
-    public static void copy(InputStream input, File target) throws IOException {
-        if (target.exists()) {
-            throw new IOException("File already exists!");
+    /**
+     * Fast ein Array zu einem String zusammen.
+     * 
+     * @param inputArray
+     *            Das eigentliche Array
+     * @param glueString
+     *            Das/Die Zeichen die benutz werden um die Arrayeinträge zu verbinden
+     * @return String
+     */
+    public static String implodeArray(final String[] inputArray, final String glueString) {
+        String output = "";
+        if (inputArray.length > 0) {
+            StringBuilder sb = new StringBuilder();
+            sb.append(inputArray[0]);
+
+            for (int i = 1; i < inputArray.length; i++) {
+                sb.append(glueString);
+                sb.append(inputArray[i]);
+            }
+            output = sb.toString();
         }
+        return output;
+    }
 
-        if (!target.createNewFile()) {
-            throw new IOException("Failed at creating new empty file!");
+    /**
+     * Ersetzt Platzhalter für Farben mit den entsprechenden Minecraft Farben.
+     * 
+     * @param text
+     *            Text der durchsucht werden soll
+     * @return String mit ersetzten Farben
+     */
+    public static String replaceColors(final String text) {
+        String search = text.trim();
+        for (String replKey : COLORMAP.keySet()) {
+            search = search.replaceAll(replKey.toLowerCase(), String.valueOf(COLORMAP.get(replKey).toString()));
         }
+        return ChatColor.translateAlternateColorCodes('&', search);
+    }
 
-        byte[] buffer = new byte[1024];
+    /**
+     * Ersetzt Platzhalter für Farben und Spielernamen.
+     * 
+     * @param text
+     *            Text der durchsucht werden soll
+     * @param player
+     *            Spielername
+     * @return String mit ersetzten Farben und Spielernamen
+     */
+    public static String replacePlayerName(final String text, final Player player) {
+        String search = text.trim();
+        search = search.replaceAll("<player>", player.getName());
+        search = search.replaceAll("<playerdn>", player.getDisplayName());
+        search = replaceColors(search);
+        return search;
+    }
 
-        OutputStream output = new FileOutputStream(target);
+    /**
+     * Ersetzt Platzhalter für Farben, Tage und Spielernamen.
+     * 
+     * @param text
+     *            Text der durchsucht werden soll
+     * @param player
+     *            Spielername
+     * @param days
+     *            Spielername
+     * @return String mit ersetzten Farben, Tagen und Spielernamen
+     */
+    public static String replacePlayerName(final String text, final Player player, final String days) {
+        String search = text.trim();
+        search = search.replaceAll("<days>", days);
+        search = replacePlayerName(search, player);
+        search = replaceColors(search);
+        return search;
+    }
 
-        int realLength;
-
-        while ((realLength = input.read(buffer)) > 0) {
-            output.write(buffer, 0, realLength);
-        }
-
-        output.flush();
-        output.close();
+    /**
+     * Keine Initalisierung!
+     */
+    private Utils() {
     }
 
 }

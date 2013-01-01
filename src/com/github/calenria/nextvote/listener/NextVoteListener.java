@@ -41,52 +41,59 @@ import com.github.calenria.nextvote.models.VoteData;
 import com.vexsoftware.votifier.model.Vote;
 import com.vexsoftware.votifier.model.VotifierEvent;
 
+/**
+ * Eventlistener Klasse.
+ * 
+ * @author Calenria
+ * 
+ */
 public class NextVoteListener implements Listener {
-    private static Logger log = Logger.getLogger("Minecraft");
-    private NextVote plugin = null;
-    public EbeanServer database = null;
-
-    public NextVoteListener(NextVote plugin) {
-        this.plugin = plugin;
+    /**
+     * Bukkit Logger.
+     */
+    private static Logger log      = Logger.getLogger("Minecraft");
+    /**
+     * NextVote Plugin.
+     */
+    private NextVote      plugin   = null;
+    /**
+     * Bukkit Datenbank.
+     */
+    private EbeanServer    database = null;
+    
+    /**
+     * Registriert die Eventhandler und erstellt die Datenbank falls nicht vorhanden.
+     * 
+     * @param nvPlugin
+     *            NextVote Plugin
+     */
+    public NextVoteListener(final NextVote nvPlugin) {
+        this.plugin = nvPlugin;
         Bukkit.getPluginManager().registerEvents(this, this.plugin);
         try {
             plugin.getDatabase().find(VoteData.class).findRowCount();
         } catch (PersistenceException ex) {
+            // TODO I18N Messages
             log.log(Level.INFO, "Installing database for " + plugin.getDescription().getName() + " due to first time usage");
             plugin.installDDL();
         }
         database = plugin.getDatabase();
     }
 
-    @EventHandler(priority = EventPriority.NORMAL)
-    public void onVotifierEvent(VotifierEvent event) {
-        Vote vote = event.getVote();
-        String user = vote.getUsername();
-
-        log.info(String.format(plugin.messages.getString("player.vote.event"), user));
-
-        OfflinePlayer thePlayer = Bukkit.getOfflinePlayer(user);
-        if (!thePlayer.hasPlayedBefore()) {
-            log.info(String.format(plugin.messages.getString("player.never.played"), user));
-            return;
-        }
-
-        VoteData voteData = new VoteData();
-        voteData.setMinecraftUser(user);
-        voteData.setTime(new Timestamp(System.currentTimeMillis()));
-        voteData.setService(vote.getServiceName());
-        voteData.setIp(vote.getAddress());
-        database.save(voteData);
-        plugin.nextVoteManager.doVote(user);
-    }
-
+    /**
+     * Wird aufgerufen sowie ein Spieler den Server betritt.
+     * 
+     * @param event
+     *            PlayerJoinEvent
+     */
     @EventHandler(ignoreCancelled = true, priority = EventPriority.LOWEST)
-    public void onPlayerJoinEvent(final PlayerJoinEvent event) {
+    public final void onPlayerJoinEvent(final PlayerJoinEvent event) {
         if (!event.getPlayer().hasPlayedBefore()) {
             return;
         }
 
         plugin.getServer().getScheduler().scheduleSyncDelayedTask(plugin, new Runnable() {
+            @Override
             public void run() {
                 Player player = event.getPlayer();
                 if (player != null) {
@@ -95,19 +102,19 @@ public class NextVoteListener implements Listener {
                         Date voteDate = vote.getTime();
                         Date nowDate = new Date();
                         if (Utils.daysBetweenMidnight(voteDate, nowDate) == 0) {
-                            List<String> voteInfo = (List<String>) plugin.getConfig().getStringList("thxVote");
+                            List<String> voteInfo = plugin.getConfig().getStringList("thxVote");
                             for (String string : voteInfo) {
                                 player.sendMessage(Utils.replacePlayerName(string, player));
                             }
                         } else {
                             Long days = Utils.daysBetweenMidnight(voteDate, nowDate);
                             if (days == 1) {
-                                List<String> dayVote = (List<String>) plugin.getConfig().getStringList("dayVote");
+                                List<String> dayVote = plugin.getConfig().getStringList("dayVote");
                                 for (String string : dayVote) {
                                     player.sendMessage(Utils.replacePlayerName(string, player));
                                 }
                             } else {
-                                List<String> infoVote = (List<String>) plugin.getConfig().getStringList("daysVote");
+                                List<String> infoVote = plugin.getConfig().getStringList("daysVote");
                                 for (String string : infoVote) {
                                     player.sendMessage(Utils.replacePlayerName(string, player, days.toString()));
                                 }
@@ -118,18 +125,46 @@ public class NextVoteListener implements Listener {
                             }
                         }
                     } else {
-                        List<String> voteInfo = (List<String>) plugin.getConfig().getStringList("noVote");
+                        List<String> voteInfo = plugin.getConfig().getStringList("noVote");
                         for (String string : voteInfo) {
                             player.sendMessage(Utils.replacePlayerName(string, player));
                         }
-                        List<String> infoVote = (List<String>) plugin.getConfig().getStringList("infoVote");
+                        List<String> infoVote = plugin.getConfig().getStringList("infoVote");
                         for (String string : infoVote) {
                             player.sendMessage(Utils.replacePlayerName(string, player));
                         }
                     }
                 }
             }
-        }, 60L);
+        }, Utils.TASK_THREE_SECONDS);
+    }
+
+    /**
+     * Lauscht auf Events des Votifier Plugins.
+     * 
+     * @param event
+     *            Votifier Event
+     */
+    @EventHandler(priority = EventPriority.NORMAL)
+    public final void onVotifierEvent(final VotifierEvent event) {
+        Vote vote = event.getVote();
+        String user = vote.getUsername();
+
+        log.info(String.format(plugin.getMessages().getString("player.vote.event"), user));
+
+        OfflinePlayer thePlayer = Bukkit.getOfflinePlayer(user);
+        if (!thePlayer.hasPlayedBefore()) {
+            log.info(String.format(plugin.getMessages().getString("player.never.played"), user));
+            return;
+        }
+
+        VoteData voteData = new VoteData();
+        voteData.setMinecraftUser(user);
+        voteData.setTime(new Timestamp(System.currentTimeMillis()));
+        voteData.setService(vote.getServiceName());
+        voteData.setIp(vote.getAddress());
+        database.save(voteData);
+        plugin.getNextVoteManager().doVote(user);
     }
 
 }
