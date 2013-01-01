@@ -61,7 +61,7 @@ public class VoteCommands {
      *            Befehls Argumente
      * @param sender
      *            Absender des Befehls
-     * @throws CommandException
+     * @throws com.sk89q.minecraft.util.commands.CommandException
      *             CommandException
      */
     @Command(aliases = { "reload", "rl" }, desc = "Läd das Plugin neu", usage = "reload")
@@ -80,7 +80,7 @@ public class VoteCommands {
      *            Befehls Argumente
      * @param sender
      *            Absender des Befehls
-     * @throws CommandException
+     * @throws com.sk89q.minecraft.util.commands.CommandException
      *             CommandException
      */
     @Command(aliases = { "vote" }, desc = "Setzt einen Testvote ab")
@@ -105,7 +105,7 @@ public class VoteCommands {
      *            Befehls Argumente
      * @param sender
      *            Absender des Befehls
-     * @throws CommandException
+     * @throws com.sk89q.minecraft.util.commands.CommandException
      *             CommandException
      */
     @Command(aliases = { "votefor" }, desc = "Votet für einen Spieler", usage = "spielername", max = 1, min = 1)

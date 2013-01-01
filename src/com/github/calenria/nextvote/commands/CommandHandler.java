@@ -70,7 +70,7 @@ public class CommandHandler {
      *            Befehls Argumente
      * @param sender
      *            Absender des Befehls
-     * @throws CommandException
+     * @throws com.sk89q.minecraft.util.commands.CommandException
      *             CommandException
      */
     @Command(aliases = { "vote" }, desc = "Zeigt Informationen zum Voten an", usage = "/vote", min = 0, max = 0)

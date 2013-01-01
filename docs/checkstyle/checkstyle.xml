@@ -9,12 +9,8 @@
 <file name="D:\GitHub\NextVote\src\com\github\calenria\nextvote\Utils.java">
 </file>
 <file name="D:\GitHub\NextVote\src\com\github\calenria\nextvote\commands\CommandHandler.java">
-<error line="78" column="90" severity="error" message="Klassen-Information für CommandException nicht verfügbar." source="com.puppycrawl.tools.checkstyle.checks.coding.RedundantThrowsCheck"/>
 </file>
 <file name="D:\GitHub\NextVote\src\com\github\calenria\nextvote\commands\VoteCommands.java">
-<error line="69" column="92" severity="error" message="Klassen-Information für CommandException nicht verfügbar." source="com.puppycrawl.tools.checkstyle.checks.coding.RedundantThrowsCheck"/>
-<error line="88" column="90" severity="error" message="Klassen-Information für CommandException nicht verfügbar." source="com.puppycrawl.tools.checkstyle.checks.coding.RedundantThrowsCheck"/>
-<error line="113" column="93" severity="error" message="Klassen-Information für CommandException nicht verfügbar." source="com.puppycrawl.tools.checkstyle.checks.coding.RedundantThrowsCheck"/>
 </file>
 <file name="D:\GitHub\NextVote\src\com\github\calenria\nextvote\listener\NextVoteListener.java">
 </file>
