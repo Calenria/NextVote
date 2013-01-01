@@ -17,46 +17,46 @@
 <file name="D:\GitHub\NextVote\src\com\github\calenria\nextvote\managers\NextVoteManager.java">
 </file>
 <file name="D:\GitHub\NextVote\src\com\github\calenria\nextvote\models\ConfigData.java">
-<error line="10" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
-<error line="12" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="15" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="16" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="17" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="18" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="19" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="20" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="21" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="22" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="23" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="24" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="25" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="26" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="27" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="28" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="29" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="30" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="31" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="32" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="33" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="34" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="35" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="36" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="37" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="38" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="39" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="40" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="41" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="42" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="43" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="44" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="45" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="46" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="47" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="48" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="50" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="51" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="52" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="54" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="10" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="12" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="15" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="16" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="17" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="18" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="19" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="20" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="21" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="22" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="23" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="24" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="25" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="26" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="27" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="28" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="29" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="30" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="31" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="32" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="33" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="34" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="35" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="36" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="37" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="38" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="39" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="40" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="41" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="42" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="43" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="44" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="45" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="46" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="47" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="48" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="50" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="51" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="52" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="54" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
 <error line="54" column="23" severity="error" message="Der Parameter plugin sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
 <error line="97" column="5" severity="error" message="Die Methode &apos;getAverageChance&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
 <error line="104" column="5" severity="error" message="Die Methode &apos;getAverageItems&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
@@ -66,7 +66,7 @@
 <error line="132" column="5" severity="error" message="Die Methode &apos;getBroadcastMessageEcon&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
 <error line="139" column="5" severity="error" message="Die Methode &apos;getBroadcastMessageItem&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
 <error line="143" column="5" severity="error" message="Die Methode &apos;getBroadcastMessageItemEcon&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="143" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="143" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
 <error line="150" column="5" severity="error" message="Die Methode &apos;getDaysVote&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
 <error line="157" column="5" severity="error" message="Die Methode &apos;getDayVote&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
 <error line="164" column="5" severity="error" message="Die Methode &apos;getFireworkColors&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
@@ -121,7 +121,7 @@
 <error line="410" column="41" severity="error" message="Der Parameter broadcastMessageItem sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
 <error line="410" column="54" severity="error" message="&apos;broadcastMessageItem&apos; verbirgt ein Feld." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
 <error line="414" column="5" severity="error" message="Die Methode &apos;setBroadcastMessageItemEcon&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="414" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="414" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
 <error line="414" column="45" severity="error" message="Der Parameter broadcastMessageItemEcon sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
 <error line="414" column="58" severity="error" message="&apos;broadcastMessageItemEcon&apos; verbirgt ein Feld." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
 <error line="423" column="5" severity="error" message="Die Methode &apos;setDaysVote&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
@@ -210,58 +210,58 @@
 <error line="639" column="42" severity="error" message="&apos;voteInfo&apos; verbirgt ein Feld." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
 </file>
 <file name="D:\GitHub\NextVote\src\com\github\calenria\nextvote\models\VoteData.java">
-<error line="27" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
-<error line="31" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="34" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="36" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="37" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="38" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="27" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="31" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="34" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="36" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="37" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="38" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
 <error line="40" column="5" severity="error" message="Die Methode &apos;getId&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="40" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="40" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
 <error line="44" column="5" severity="error" message="Die Methode &apos;getIp&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="44" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="44" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
 <error line="48" column="5" severity="error" message="Die Methode &apos;getMinecraftUser&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="48" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="48" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
 <error line="52" column="5" severity="error" message="Die Methode &apos;getService&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="52" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="52" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
 <error line="56" column="5" severity="error" message="Die Methode &apos;getTime&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="56" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="56" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
 <error line="60" column="5" severity="error" message="Die Methode &apos;setId&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="60" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="60" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
 <error line="60" column="23" severity="error" message="Der Parameter id sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
 <error line="60" column="31" severity="error" message="&apos;id&apos; verbirgt ein Feld." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
 <error line="64" column="5" severity="error" message="Die Methode &apos;setIp&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="64" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="64" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
 <error line="64" column="23" severity="error" message="Der Parameter ip sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
 <error line="64" column="30" severity="error" message="&apos;ip&apos; verbirgt ein Feld." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
 <error line="68" column="5" severity="error" message="Die Methode &apos;setMinecraftUser&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="68" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="68" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
 <error line="68" column="34" severity="error" message="Der Parameter player sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
 <error line="72" column="5" severity="error" message="Die Methode &apos;setService&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="72" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="72" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
 <error line="72" column="28" severity="error" message="Der Parameter service sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
 <error line="72" column="35" severity="error" message="&apos;service&apos; verbirgt ein Feld." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
 <error line="76" column="5" severity="error" message="Die Methode &apos;setTime&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="76" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="76" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
 <error line="76" column="25" severity="error" message="Der Parameter time sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
 <error line="76" column="35" severity="error" message="&apos;time&apos; verbirgt ein Feld." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
 </file>
 <file name="D:\GitHub\NextVote\src\com\github\calenria\nextvote\models\VoteHistory.java">
-<error line="10" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
-<error line="13" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="16" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="18" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="20" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="22" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="23" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="25" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="27" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="29" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="30" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="31" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="33" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="34" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="36" column="5" severity="error" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="10" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="13" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="16" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="18" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="20" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="22" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="23" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="25" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="27" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="29" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="30" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="31" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="33" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="34" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="36" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
 <error line="42" column="5" severity="error" message="Die Methode &apos;getAmmount&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
 <error line="49" column="5" severity="error" message="Die Methode &apos;getDamage&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
 <error line="56" column="5" severity="error" message="Die Methode &apos;getEcon&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
@@ -294,11 +294,11 @@
 <error line="206" column="33" severity="error" message="&apos;econ&apos; verbirgt ein Feld." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
 <error line="214" column="5" severity="error" message="Die Methode &apos;setEconAmmount&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
 <error line="214" column="32" severity="error" message="Der Parameter d sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
-<error line="218" severity="error" message="Der erste Satz sollte mit einem Punkt abschließen." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="218" severity="warning" message="Der erste Satz sollte mit einem Punkt abschließen." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
 <error line="221" column="5" severity="error" message="Die Methode &apos;setId&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
 <error line="221" column="23" severity="error" message="Der Parameter id sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
 <error line="221" column="31" severity="error" message="&apos;id&apos; verbirgt ein Feld." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
-<error line="221" column="31" severity="error" message="Erwartete Tag @param für &apos;id&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="221" column="31" severity="warning" message="Erwartete Tag @param für &apos;id&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
 <error line="229" column="5" severity="error" message="Die Methode &apos;setItem&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
 <error line="229" column="25" severity="error" message="Der Parameter item sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
 <error line="229" column="33" severity="error" message="&apos;item&apos; verbirgt ein Feld." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
@@ -320,13 +320,72 @@
 <error line="277" column="5" severity="error" message="Die Methode &apos;setPaid&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
 <error line="277" column="25" severity="error" message="Der Parameter paid sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
 <error line="277" column="33" severity="error" message="&apos;paid&apos; verbirgt ein Feld." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
-<error line="282" column="8" severity="error" message="Nicht benutztes @param-Tag für &apos;econ&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="282" column="8" severity="warning" message="Nicht benutztes @param-Tag für &apos;econ&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
 <error line="285" column="5" severity="error" message="Die Methode &apos;setPaidEcon&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
 <error line="285" column="29" severity="error" message="Der Parameter paidEcon sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
 <error line="285" column="37" severity="error" message="&apos;paidEcon&apos; verbirgt ein Feld." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
-<error line="285" column="37" severity="error" message="Erwartete Tag @param für &apos;paidEcon&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="285" column="37" severity="warning" message="Erwartete Tag @param für &apos;paidEcon&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
 <error line="293" column="5" severity="error" message="Die Methode &apos;setTime&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
 <error line="293" column="25" severity="error" message="Der Parameter time sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
 <error line="293" column="35" severity="error" message="&apos;time&apos; verbirgt ein Feld." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+</file>
+<file name="D:\GitHub\NextVote\src\com\github\calenria\nextvote\NextVote.java">
+</file>
+<file name="D:\GitHub\NextVote\src\com\github\calenria\nextvote\NextVoteItem.java">
+<error line="1" severity="info" message="20 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\NextVote.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+</file>
+<file name="D:\GitHub\NextVote\src\com\github\calenria\nextvote\NextVoteRadomItem.java">
+<error line="1" severity="info" message="20 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\NextVote.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="1" severity="info" message="20 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\NextVoteItem.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="154" severity="info" message="13 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\NextVoteItem.java, beginnend bei Zeile 94" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+</file>
+<file name="D:\GitHub\NextVote\src\com\github\calenria\nextvote\Utils.java">
+<error line="1" severity="info" message="20 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\NextVoteItem.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="1" severity="info" message="20 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\NextVoteRadomItem.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="1" severity="info" message="21 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\NextVote.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+</file>
+<file name="D:\GitHub\NextVote\src\com\github\calenria\nextvote\commands\CommandHandler.java">
+<error line="1" severity="info" message="17 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\NextVote.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="1" severity="info" message="17 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\NextVoteItem.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="1" severity="info" message="17 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\NextVoteRadomItem.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="1" severity="info" message="17 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\Utils.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+</file>
+<file name="D:\GitHub\NextVote\src\com\github\calenria\nextvote\commands\VoteCommands.java">
+<error line="1" severity="info" message="17 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\NextVote.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="1" severity="info" message="17 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\NextVoteItem.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="1" severity="info" message="17 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\NextVoteRadomItem.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="1" severity="info" message="17 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\Utils.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="1" severity="info" message="19 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\commands\CommandHandler.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+</file>
+<file name="D:\GitHub\NextVote\src\com\github\calenria\nextvote\listener\NextVoteListener.java">
+<error line="1" severity="info" message="17 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\commands\CommandHandler.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="1" severity="info" message="17 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\commands\VoteCommands.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="1" severity="info" message="18 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\NextVote.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="1" severity="info" message="18 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\NextVoteItem.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="1" severity="info" message="18 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\NextVoteRadomItem.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="1" severity="info" message="18 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\Utils.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+</file>
+<file name="D:\GitHub\NextVote\src\com\github\calenria\nextvote\managers\NextVoteManager.java">
+<error line="1" severity="info" message="17 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\NextVote.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="1" severity="info" message="17 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\NextVoteItem.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="1" severity="info" message="17 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\NextVoteRadomItem.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="1" severity="info" message="17 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\Utils.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="1" severity="info" message="17 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\commands\CommandHandler.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="1" severity="info" message="17 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\commands\VoteCommands.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="1" severity="info" message="17 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\listener\NextVoteListener.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+</file>
+<file name="D:\GitHub\NextVote\src\com\github\calenria\nextvote\models\ConfigData.java">
+</file>
+<file name="D:\GitHub\NextVote\src\com\github\calenria\nextvote\models\VoteData.java">
+<error line="1" severity="info" message="17 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\commands\CommandHandler.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="1" severity="info" message="17 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\commands\VoteCommands.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="1" severity="info" message="17 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\managers\NextVoteManager.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="1" severity="info" message="18 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\NextVote.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="1" severity="info" message="18 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\NextVoteItem.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="1" severity="info" message="18 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\NextVoteRadomItem.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="1" severity="info" message="18 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\Utils.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="1" severity="info" message="18 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\listener\NextVoteListener.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+</file>
+<file name="D:\GitHub\NextVote\src\com\github\calenria\nextvote\models\VoteHistory.java">
 </file>
 </checkstyle>
