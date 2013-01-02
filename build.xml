@@ -24,7 +24,7 @@
 	<property name="findbugs.home" value="docs/findbugs" />
 
 	<target name="javadoc" depends="compile">
-		<javadoc packagenames="*" sourcepath="${src.dir}" destdir="${javadoc.dir}" private="true" author="true">
+		<javadoc packagenames="*" encoding="UTF-8" sourcepath="${src.dir}" destdir="${javadoc.dir}" private="true" author="true">
 		</javadoc>
 	</target>
 

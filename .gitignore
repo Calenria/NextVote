@@ -21,8 +21,9 @@ public/boss
 public/insets
 public/profiles
 modules/
-checkstyle/checkstyle.xml
-checkstyle/
+docs/checkstyle/checkstyle.xml
+docs/checkstyle/
+docs/javadocs
 build/
 build/*
 # Numerous always-ignore extensions
