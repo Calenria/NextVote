@@ -22,6 +22,7 @@ import java.sql.Timestamp;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import javax.persistence.Transient;
 import javax.persistence.Version;
 
 /**
@@ -100,6 +101,12 @@ public class VoteHistory {
      */
     @Version
     private Timestamp lastUpdate;
+
+    /**
+     * Vote Totals.
+     */
+    @Transient
+    private int       total;
 
     /**
      * @return the ammount
@@ -197,6 +204,15 @@ public class VoteHistory {
      */
     public Timestamp getTime() {
         return time;
+    }
+
+    /**
+     * Vote Totals.
+     * 
+     * @return the total
+     */
+    public int getTotal() {
+        return total;
     }
 
     /**
@@ -358,5 +374,13 @@ public class VoteHistory {
      */
     public void setTime(final Timestamp vTime) {
         this.time = vTime;
+    }
+
+    /**
+     * @param vTotal
+     *            the total to set
+     */
+    public void setTotal(final int vTotal) {
+        this.total = vTotal;
     }
 }

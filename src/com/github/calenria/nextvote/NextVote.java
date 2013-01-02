@@ -42,6 +42,7 @@ import com.github.calenria.nextvote.commands.VoteCommands;
 import com.github.calenria.nextvote.listener.NextVoteListener;
 import com.github.calenria.nextvote.managers.NextVoteManager;
 import com.github.calenria.nextvote.models.ConfigData;
+import com.github.calenria.nextvote.models.VoteAggregate;
 import com.github.calenria.nextvote.models.VoteData;
 import com.github.calenria.nextvote.models.VoteHistory;
 import com.sk89q.bukkit.util.CommandsManagerRegistration;
@@ -161,6 +162,7 @@ public class NextVote extends JavaPlugin {
         List<Class<?>> list = new ArrayList<Class<?>>();
         list.add(VoteData.class);
         list.add(VoteHistory.class);
+        list.add(VoteAggregate.class);
         return list;
     }
 

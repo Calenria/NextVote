@@ -372,6 +372,6 @@
 		<property name="severity" value="error" />
 	</module>
 	<module name="SuppressionFilter">
-		<property name="file" value="docs/suppressions.xml" />
+		<property name="file" value="${basedir}/docs/suppressions.xml" />
 	</module>
 </module>

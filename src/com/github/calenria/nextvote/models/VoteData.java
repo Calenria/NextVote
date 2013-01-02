@@ -63,7 +63,7 @@ public class VoteData {
     public Integer getId() {
         return id;
     }
-    
+
     /**
      * @return Die Ipadresse des Voters
      */

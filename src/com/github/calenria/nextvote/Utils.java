@@ -27,8 +27,10 @@ import java.util.Date;
 import java.util.GregorianCalendar;
 import java.util.HashMap;
 
+import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.Color;
+import org.bukkit.OfflinePlayer;
 import org.bukkit.entity.Player;
 
 /**
@@ -113,6 +115,19 @@ public final class Utils {
                                                                               put("YELLOW", Color.YELLOW);
                                                                           }
                                                                       };
+
+    /**
+     * Ersetzt Farben und Platzhalter.
+     * 
+     * @param message
+     *            Nachricht in der Farben und Platzhalter ersetzt werden
+     * @param args
+     *            Argumente für die Platzhalter
+     * @return Ersetzter String
+     */
+    public static String colorFormat(final String message, final Object... args) {
+        return ChatColor.translateAlternateColorCodes('&', String.format(message, args));
+    }
 
     /**
      * Einfache Methode um Dateien zu Kopieren.
@@ -221,6 +236,26 @@ public final class Utils {
             output = sb.toString();
         }
         return output;
+    }
+
+    /**
+     * Überprüft ob der Spieler jemals auf dem Server gespielt hat und sendet eine Nachricht wenn nicht.
+     * 
+     * @param playerName
+     *            Spieler der geprüft wird
+     * @param sender
+     *            Spieler an den die Nachricht ausgegeben wird
+     * @return OfflinePlayer
+     */
+    public static OfflinePlayer offlinePlayerWithMessage(final String playerName, final String sender) {
+        OfflinePlayer oPlayer = Bukkit.getOfflinePlayer(playerName);
+        if (!oPlayer.hasPlayedBefore()) {
+            Bukkit.getPlayer(sender).sendMessage(ChatColor.translateAlternateColorCodes('&', String.format("&6%s&f nicht gefunden", playerName)));
+            return null;
+        } else {
+            return oPlayer;
+
+        }
     }
 
     /**

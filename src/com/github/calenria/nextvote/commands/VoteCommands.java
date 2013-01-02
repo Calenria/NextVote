@@ -18,13 +18,20 @@
 package com.github.calenria.nextvote.commands;
 
 import java.sql.Timestamp;
+import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+import org.bukkit.ChatColor;
+import org.bukkit.OfflinePlayer;
 import org.bukkit.command.CommandSender;
 
+import com.avaje.ebean.PagingList;
 import com.github.calenria.nextvote.NextVote;
+import com.github.calenria.nextvote.Utils;
+import com.github.calenria.nextvote.models.VoteAggregate;
 import com.github.calenria.nextvote.models.VoteData;
+import com.github.calenria.nextvote.models.VoteHistory;
 import com.sk89q.minecraft.util.commands.Command;
 import com.sk89q.minecraft.util.commands.CommandContext;
 import com.sk89q.minecraft.util.commands.CommandException;
@@ -40,11 +47,16 @@ public class VoteCommands {
     /**
      * NextVote Plugin.
      */
-    private final NextVote plugin;
+    private final NextVote   plugin;
     /**
      * Bukkit Logger.
      */
-    private static Logger  log = Logger.getLogger("Minecraft");
+    private static Logger    log       = Logger.getLogger("Minecraft");
+
+    /**
+     * Listengröße.
+     */
+    private static final int LIST_SIZE = 5;
 
     /**
      * @param nvPlugin
@@ -55,10 +67,55 @@ public class VoteCommands {
     }
 
     /**
+     * Gibt Informationen zu Votes von dir oder einen anderen Spieler aus.
+     * 
+     * @param args
+     *            Optional der Spielername
+     * @param sender
+     *            Absender des Befehls
+     * @throws com.sk89q.minecraft.util.commands.CommandException
+     *             CommandException
+     */
+    @Command(aliases = { "info" }, desc = "Gibt Informationen zu Votes von dir oder einen anderen Spieler aus", usage = "[spielername]", max = 1)
+    @CommandPermissions("nextvote.info")
+    public final void info(final CommandContext args, final CommandSender sender) throws CommandException {
+        String playerName = sender.getName();
+        if (args.argsLength() > 0) {
+            playerName = args.getString(0);
+        }
+
+        OfflinePlayer oPlayer = Utils.offlinePlayerWithMessage(playerName, sender.getName());
+        if (oPlayer != null) {
+            List<VoteHistory> votes = plugin.getDatabase().find(VoteHistory.class).where().eq("minecraft_user", playerName).findList();
+            if (votes.size() == 0) {
+                sender.sendMessage(ChatColor.translateAlternateColorCodes('&', String.format("&6%s&f hat noch nie gevotet", playerName)));
+                return;
+            }
+
+            double econ = 0;
+            int items = 0;
+            String econName = NextVote.getEconomy().currencyNamePlural();
+            for (VoteHistory vote : votes) {
+                if (vote.hasEcon()) {
+                    econ += vote.getEconAmmount();
+                }
+                if (vote.hasItem()) {
+                    items += vote.getAmmount();
+                }
+            }
+
+            sender.sendMessage(Utils.colorFormat("============= &6 %s &f =============", playerName));
+            sender.sendMessage(Utils.colorFormat("Votes: &6 %d", votes.size()));
+            sender.sendMessage(Utils.colorFormat("%s: &6 %.2f", econName, econ));
+            sender.sendMessage(Utils.colorFormat("Items: &6 %d", items));
+        }
+    }
+
+    /**
      * Lädt das Plugin neu.
      * 
      * @param args
-     *            Befehls Argumente
+     *            Sollte leer sein
      * @param sender
      *            Absender des Befehls
      * @throws com.sk89q.minecraft.util.commands.CommandException
@@ -74,10 +131,31 @@ public class VoteCommands {
     }
 
     /**
+     * Zeigt die Top Voter an.
+     * 
+     * @param args
+     *            Seitenzahl oder leer
+     * @param sender
+     *            Absender des Befehls
+     * @throws com.sk89q.minecraft.util.commands.CommandException
+     *             CommandException
+     */
+    @Command(aliases = { "top" }, desc = "Zeigt die Top Voter an", usage = "[seitenzahl]", max = 1, min = 0)
+    @CommandPermissions("nextvote.votefor")
+    public final void top(final CommandContext args, final CommandSender sender) throws CommandException {
+        String econName = NextVote.getEconomy().currencyNamePlural();
+        PagingList<VoteAggregate> pagingList = plugin.getDatabase().find(VoteAggregate.class).findPagingList(LIST_SIZE);
+        sender.sendMessage(Utils.colorFormat("=============== &6 %s &f ===============", "Top Voter"));
+        for (VoteAggregate vote : pagingList.getPage(0).getList()) {
+            sender.sendMessage(Utils.colorFormat("&6%s&f: &6%d &f(%s: &6%.2f&f, Items: &6%d&f)", vote.getPlayer(), vote.getTotal(), econName, vote.getTotalEcon(), vote.getTotalItems()));
+        }
+    }
+
+    /**
      * Setzt einen Testvote ab.
      * 
      * @param args
-     *            Befehls Argumente
+     *            Sollte leer sein
      * @param sender
      *            Absender des Befehls
      * @throws com.sk89q.minecraft.util.commands.CommandException
@@ -102,7 +180,7 @@ public class VoteCommands {
      * Setzt einen Vote im namen eines anderen Spielers ab.
      * 
      * @param args
-     *            Befehls Argumente
+     *            Spielername für den gevotet werden soll
      * @param sender
      *            Absender des Befehls
      * @throws com.sk89q.minecraft.util.commands.CommandException

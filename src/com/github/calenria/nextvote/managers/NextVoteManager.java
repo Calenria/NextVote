@@ -45,6 +45,7 @@ import com.avaje.ebean.EbeanServer;
 import com.github.calenria.nextvote.NextVote;
 import com.github.calenria.nextvote.NextVoteRadomItem;
 import com.github.calenria.nextvote.Utils;
+import com.github.calenria.nextvote.models.VoteAggregate;
 import com.github.calenria.nextvote.models.VoteData;
 import com.github.calenria.nextvote.models.VoteHistory;
 
@@ -79,6 +80,12 @@ public class NextVoteManager {
         } catch (PersistenceException ex) {
             log.log(Level.INFO, "Installing database for " + plugin.getDescription().getName() + " due to first time usage");
             plugin.installDDL();
+        }
+        try {
+            plugin.getDatabase().find(VoteAggregate.class).findRowCount();
+        } catch (PersistenceException ex) {
+            log.log(Level.INFO, "Installing database for " + plugin.getDescription().getName() + " due to first time usage");
+            VoteAggregate.initView(plugin);
         }
         this.database = plugin.getDatabase();
     }
