@@ -161,9 +161,9 @@ public class VoteCommands {
      * @throws com.sk89q.minecraft.util.commands.CommandException
      *             CommandException
      */
-    @Command(aliases = { "vote" }, desc = "Setzt einen Testvote ab")
+    @Command(aliases = { "testvote" }, desc = "Setzt einen Testvote ab")
     @CommandPermissions("nextvote.test")
-    public final void vote(final CommandContext args, final CommandSender sender) throws CommandException {
+    public final void testvote(final CommandContext args, final CommandSender sender) throws CommandException {
         sender.sendMessage(String.format("[%s] Testvote sucess!", plugin.getDescription().getName()));
         log.log(Level.INFO, String.format("[%s] Testvote sucess!", plugin.getDescription().getName()));
         VoteData voteData = new VoteData();
