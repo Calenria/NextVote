@@ -12,7 +12,7 @@
 
 	<taskdef resource="checkstyletask.properties" classpath="${lib.dir}/checkstyle.jar" />
 
-	<checkstyle config="docs/sun_checks.xml" failOnViolation="true" failureProperty="checkstyle.failure">
+	<checkstyle config="docs/sun_checks.xml" failOnViolation="false" failureProperty="checkstyle.failure">
 		<fileset dir="${src.dir}" includes="**/*.java" />
 		<classpath>
 			<fileset dir="${lib.dir}" includes="*.jar" />
@@ -24,7 +24,7 @@
 	<property name="findbugs.home" value="docs/findbugs" />
 
 	<target name="javadoc" depends="compile">
-		<javadoc packagenames="*" encoding="UTF-8" sourcepath="${src.dir}" destdir="${javadoc.dir}" private="true" author="true">
+		<javadoc packagenames="*" encoding="UTF-8" sourcepath="${src.dir}" destdir="${javadoc.dir}" private="false" author="true">
 		</javadoc>
 	</target>
 
