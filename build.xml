@@ -4,22 +4,29 @@
 	<property name="lib.dir" value="lib" />
 	<property name="build.dir" value="build" />
 	<property name="classes.dir" value="${build.dir}/classes" />
-	<property name="jar.dir"     value="${build.dir}/jar"/>
+	<property name="jar.dir" value="${build.dir}/jar" />
+	<property name="doc.dir" value="docs" />
+	<property name="javadoc.dir" value="${doc.dir}/javadoc" />
 
 	<property name="main-class" value="com.github.calenria.nextvote.NextVote" />
-	
-	<taskdef resource="checkstyletask.properties" classpath="${lib.dir}/checkstyle.jar"/>
 
-	<checkstyle config="docs/sun_checks.xml" failOnViolation="false" failureProperty="checkstyle.failure">
-	  <fileset dir="${src.dir}" includes="**/*.java"/>
+	<taskdef resource="checkstyletask.properties" classpath="${lib.dir}/checkstyle.jar" />
+
+	<checkstyle config="docs/sun_checks.xml" failOnViolation="true" failureProperty="checkstyle.failure">
+		<fileset dir="${src.dir}" includes="**/*.java" />
 		<classpath>
 			<fileset dir="${lib.dir}" includes="*.jar" />
 		</classpath>
-	  <formatter type="plain"/>
-	  <formatter type="xml" toFile="docs/checkstyle/checkstyle.xml"/>
+		<formatter type="plain" />
+		<formatter type="xml" toFile="docs/checkstyle/checkstyle.xml" />
 	</checkstyle>
-	
+
 	<property name="findbugs.home" value="docs/findbugs" />
+
+	<target name="javadoc" depends="compile">
+		<javadoc packagenames="*" sourcepath="${src}" destdir="${javadoc.dir}" private="true" author="true">
+		</javadoc>
+	</target>
 
 	<macrodef name="git-revision">
 		<attribute name="path" />

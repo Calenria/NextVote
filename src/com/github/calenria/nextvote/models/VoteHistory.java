@@ -24,290 +24,339 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 import javax.persistence.Version;
 
+/**
+ * Datenbank Model für die Voteblohnungen.
+ * 
+ * @author Calenria
+ * 
+ */
 @Entity
 @Table(name = "skymine_vote_history")
 public class VoteHistory {
+    /**
+     * Vote id.
+     */
     @Id
     private Integer   id;
 
+    /**
+     * Der Spieler der gevotet hat.
+     */
     private String    minecraftUser;
 
+    /**
+     * Zeitpunkt der Votes.
+     */
     private Timestamp time;
 
+    /**
+     * Augezahlte Item Anzahl.
+     */
     private int       ammount     = 0;
 
+    /**
+     * Schaden/Farbe/Typ des Items.
+     */
     private short     damage      = 0;
+    /**
+     * Material des Items.
+     */
     private int       material    = 0;
 
+    /**
+     * Name des Items.
+     */
     private String    name;
 
+    /**
+     * Name des Items in der gewählten Sprache.
+     */
     private String    localName;
 
+    /**
+     * Votebelohnung enthält Econ.
+     */
     private boolean   econ        = false;
+    /**
+     * Votebelohnung enthält ein Item.
+     */
     private boolean   item        = false;
+    /**
+     * Anzahl der Econ Belohnung.
+     */
     private double    econAmmount = 0;
 
+    /**
+     * Vote ausgezahlt.
+     */
     private boolean   paid        = false;
+    /**
+     * Econ Belohnung ausgezahlt.
+     */
     private boolean   paidEcon    = false;
 
+    /**
+     * Letztes Update des Votes.
+     */
     @Version
     private Timestamp lastUpdate;
 
     /**
      * @return the ammount
      */
-    public int getAmmount() {
+    public final int getAmmount() {
         return ammount;
     }
 
     /**
      * @return the damage
      */
-    public short getDamage() {
+    public final short getDamage() {
         return damage;
     }
 
     /**
      * @return the econ
      */
-    public boolean getEcon() {
+    public final boolean getEcon() {
         return econ;
     }
 
     /**
      * @return the econAmmount
      */
-    public double getEconAmmount() {
+    public final double getEconAmmount() {
         return econAmmount;
     }
 
     /**
      * @return the id
      */
-    public Integer getId() {
+    public final Integer getId() {
         return id;
     }
 
     /**
      * @return the item
      */
-    public boolean getItem() {
+    public final boolean getItem() {
         return item;
     }
 
     /**
      * @return the lastUpdate
      */
-    public Timestamp getLastUpdate() {
+    public final Timestamp getLastUpdate() {
         return lastUpdate;
     }
 
     /**
      * @return the localName
      */
-    public String getLocalName() {
+    public final String getLocalName() {
         return localName;
     }
 
     /**
      * @return the material
      */
-    public int getMaterial() {
+    public final int getMaterial() {
         return material;
     }
 
     /**
      * @return the minecraftUser
      */
-    public String getMinecraftUser() {
+    public final String getMinecraftUser() {
         return minecraftUser;
     }
 
     /**
      * @return the name
      */
-    public String getName() {
+    public final String getName() {
         return name;
     }
 
     /**
      * @return the paid
      */
-    public boolean getPaid() {
+    public final boolean getPaid() {
         return paid;
     }
 
     /**
      * @return the econ
      */
-    public boolean getPaidEcon() {
+    public final boolean getPaidEcon() {
         return paidEcon;
     }
 
     /**
      * @return the time
      */
-    public Timestamp getTime() {
+    public final Timestamp getTime() {
         return time;
     }
 
     /**
      * @return the econ
      */
-    public boolean hasEcon() {
+    public final boolean hasEcon() {
         return econ;
     }
 
     /**
      * @return the item
      */
-    public boolean hasItem() {
+    public final boolean hasItem() {
         return item;
     }
 
     /**
      * @return the econ
      */
-    public boolean hasPaidEcon() {
+    public final boolean hasPaidEcon() {
         return paidEcon;
     }
 
     /**
      * @return the econ
      */
-    public boolean isEcon() {
+    public final boolean isEcon() {
         return econ;
     }
 
     /**
      * @return the item
      */
-    public boolean isItem() {
+    public final boolean isItem() {
         return item;
     }
 
     /**
      * @return the paid
      */
-    public boolean isPaid() {
+    public final boolean isPaid() {
         return paid;
     }
 
     /**
      * @return the econ
      */
-    public boolean isPaidEcon() {
+    public final boolean isPaidEcon() {
         return paidEcon;
     }
 
     /**
-     * @param ammount
+     * @param vAmmount
      *            the ammount to set
      */
-    public void setAmmount(int ammount) {
-        this.ammount = ammount;
+    public final void setAmmount(final int vAmmount) {
+        this.ammount = vAmmount;
     }
 
     /**
-     * @param damage
+     * @param vDdamage
      *            the damage to set
      */
-    public void setDamage(short damage) {
-        this.damage = damage;
+    public final void setDamage(final short vDdamage) {
+        this.damage = vDdamage;
     }
 
     /**
-     * @param econ
+     * @param vEcon
      *            the econ to set
      */
-    public void setEcon(boolean econ) {
-        this.econ = econ;
+    public final void setEcon(final boolean vEcon) {
+        this.econ = vEcon;
     }
 
     /**
-     * @param d
+     * @param vEconAmmount
      *            the econAmmount to set
      */
-    public void setEconAmmount(double d) {
-        this.econAmmount = d;
+    public final void setEconAmmount(final double vEconAmmount) {
+        this.econAmmount = vEconAmmount;
     }
 
     /**
-     * set the id
+     * @param vId
+     *            set the vote Id
      */
-    public void setId(Integer id) {
-        this.id = id;
+    public final void setId(final Integer vId) {
+        this.id = vId;
     }
 
     /**
-     * @param item
+     * @param vItem
      *            the item to set
      */
-    public void setItem(boolean item) {
-        this.item = item;
+    public final void setItem(final boolean vItem) {
+        this.item = vItem;
     }
 
     /**
-     * @param lastUpdate
+     * @param vLastUpdate
      *            the lastUpdate to set
      */
-    public void setLastUpdate(Timestamp lastUpdate) {
-        this.lastUpdate = lastUpdate;
+    public final void setLastUpdate(final Timestamp vLastUpdate) {
+        this.lastUpdate = vLastUpdate;
     }
 
     /**
-     * @param localName
+     * @param vLocalName
      *            the localName to set
      */
-    public void setLocalName(String localName) {
-        this.localName = localName;
+    public final void setLocalName(final String vLocalName) {
+        this.localName = vLocalName;
     }
 
     /**
-     * @param material
+     * @param vMaterial
      *            the material to set
      */
-    public void setMaterial(int material) {
-        this.material = material;
+    public final void setMaterial(final int vMaterial) {
+        this.material = vMaterial;
     }
 
     /**
-     * @param minecraftUser
+     * @param vMinecraftUser
      *            the minecraftUser to set
      */
-    public void setMinecraftUser(String minecraftUser) {
-        this.minecraftUser = minecraftUser;
+    public final void setMinecraftUser(final String vMinecraftUser) {
+        this.minecraftUser = vMinecraftUser;
     }
 
     /**
-     * @param name
+     * @param vName
      *            the name to set
      */
-    public void setName(String name) {
-        this.name = name;
+    public final void setName(final String vName) {
+        this.name = vName;
     }
 
     /**
-     * @param paid
+     * @param vPaid
      *            the paid to set
      */
-    public void setPaid(boolean paid) {
-        this.paid = paid;
+    public final void setPaid(final boolean vPaid) {
+        this.paid = vPaid;
     }
 
     /**
-     * @param econ
+     * @param vPaidEcon
      *            the econ to set
      */
-    public void setPaidEcon(boolean paidEcon) {
-        this.paidEcon = paidEcon;
+    public final void setPaidEcon(final boolean vPaidEcon) {
+        this.paidEcon = vPaidEcon;
     }
 
     /**
-     * @param time
+     * @param vTime
      *            the time to set
      */
-    public void setTime(Timestamp time) {
-        this.time = time;
+    public final void setTime(final Timestamp vTime) {
+        this.time = vTime;
     }
 }

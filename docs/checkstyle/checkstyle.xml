@@ -17,332 +17,25 @@
 <file name="D:\GitHub\NextVote\src\com\github\calenria\nextvote\managers\NextVoteManager.java">
 </file>
 <file name="D:\GitHub\NextVote\src\com\github\calenria\nextvote\models\ConfigData.java">
-<error line="10" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
-<error line="12" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="15" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="16" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="17" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="18" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="19" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="20" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="21" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="22" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="23" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="24" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="25" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="26" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="27" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="28" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="29" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="30" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="31" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="32" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="33" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="34" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="35" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="36" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="37" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="38" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="39" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="40" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="41" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="42" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="43" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="44" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="45" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="46" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="47" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="48" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="50" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="51" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="52" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="54" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
-<error line="54" column="23" severity="error" message="Der Parameter plugin sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
-<error line="97" column="5" severity="error" message="Die Methode &apos;getAverageChance&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="104" column="5" severity="error" message="Die Methode &apos;getAverageItems&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="111" column="5" severity="error" message="Die Methode &apos;getAverageMaxAmount&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="118" column="5" severity="error" message="Die Methode &apos;getAverageMinAmount&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="125" column="5" severity="error" message="Die Methode &apos;getBonusChance&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="132" column="5" severity="error" message="Die Methode &apos;getBroadcastMessageEcon&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="139" column="5" severity="error" message="Die Methode &apos;getBroadcastMessageItem&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="143" column="5" severity="error" message="Die Methode &apos;getBroadcastMessageItemEcon&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="143" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
-<error line="150" column="5" severity="error" message="Die Methode &apos;getDaysVote&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="157" column="5" severity="error" message="Die Methode &apos;getDayVote&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="164" column="5" severity="error" message="Die Methode &apos;getFireworkColors&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="171" column="5" severity="error" message="Die Methode &apos;getFireworkFadeColors&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="178" column="5" severity="error" message="Die Methode &apos;getFireworkPower&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="185" column="5" severity="error" message="Die Methode &apos;getFireworkType&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="192" column="5" severity="error" message="Die Methode &apos;getFixEconAmmount&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="199" column="5" severity="error" message="Die Methode &apos;getGoodChance&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="206" column="5" severity="error" message="Die Methode &apos;getGoodItems&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="213" column="5" severity="error" message="Die Methode &apos;getGoodMaxAmount&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="220" column="5" severity="error" message="Die Methode &apos;getGoodMinAmount&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="227" column="5" severity="error" message="Die Methode &apos;getInfoVote&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="234" column="5" severity="error" message="Die Methode &apos;getLang&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="241" column="5" severity="error" message="Die Methode &apos;getNoVote&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="248" column="5" severity="error" message="Die Methode &apos;getPoorChance&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="255" column="5" severity="error" message="Die Methode &apos;getPoorItems&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="262" column="5" severity="error" message="Die Methode &apos;getPoorMaxAmount&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="269" column="5" severity="error" message="Die Methode &apos;getPoorMinAmount&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="276" column="5" severity="error" message="Die Methode &apos;getThxVote&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="283" column="5" severity="error" message="Die Methode &apos;getTopChance&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="290" column="5" severity="error" message="Die Methode &apos;getTopItems&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="297" column="5" severity="error" message="Die Methode &apos;getTopMaxAmount&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="304" column="5" severity="error" message="Die Methode &apos;getTopMinAmount&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="311" column="5" severity="error" message="Die Methode &apos;getVoteInfo&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="318" column="5" severity="error" message="Die Methode &apos;isBonusItem&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="325" column="5" severity="error" message="Die Methode &apos;isFirework&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="332" column="5" severity="error" message="Die Methode &apos;isFixEcon&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="339" column="5" severity="error" message="Die Methode &apos;isOnlyEcon&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="346" column="5" severity="error" message="Die Methode &apos;isShowBroadcast&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="354" column="5" severity="error" message="Die Methode &apos;setAverageChance&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="354" column="34" severity="error" message="Der Parameter averageChance sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
-<error line="354" column="38" severity="error" message="&apos;averageChance&apos; verbirgt ein Feld." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
-<error line="362" column="5" severity="error" message="Die Methode &apos;setAverageItems&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="362" column="33" severity="error" message="Der Parameter averageItems sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
-<error line="362" column="46" severity="error" message="&apos;averageItems&apos; verbirgt ein Feld." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
-<error line="370" column="5" severity="error" message="Die Methode &apos;setAverageMaxAmount&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="370" column="37" severity="error" message="Der Parameter averageMaxAmount sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
-<error line="370" column="41" severity="error" message="&apos;averageMaxAmount&apos; verbirgt ein Feld." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
-<error line="378" column="5" severity="error" message="Die Methode &apos;setAverageMinAmount&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="378" column="37" severity="error" message="Der Parameter averageMinAmount sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
-<error line="378" column="41" severity="error" message="&apos;averageMinAmount&apos; verbirgt ein Feld." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
-<error line="386" column="5" severity="error" message="Die Methode &apos;setBonusChance&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="386" column="32" severity="error" message="Der Parameter bonusChance sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
-<error line="386" column="36" severity="error" message="&apos;bonusChance&apos; verbirgt ein Feld." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
-<error line="394" column="5" severity="error" message="Die Methode &apos;setBonusItem&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="394" column="30" severity="error" message="Der Parameter bonusItem sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
-<error line="394" column="38" severity="error" message="&apos;bonusItem&apos; verbirgt ein Feld." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
-<error line="402" column="5" severity="error" message="Die Methode &apos;setBroadcastMessageEcon&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="402" column="41" severity="error" message="Der Parameter broadcastMessageEcon sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
-<error line="402" column="54" severity="error" message="&apos;broadcastMessageEcon&apos; verbirgt ein Feld." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
-<error line="410" column="5" severity="error" message="Die Methode &apos;setBroadcastMessageItem&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="410" column="41" severity="error" message="Der Parameter broadcastMessageItem sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
-<error line="410" column="54" severity="error" message="&apos;broadcastMessageItem&apos; verbirgt ein Feld." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
-<error line="414" column="5" severity="error" message="Die Methode &apos;setBroadcastMessageItemEcon&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="414" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
-<error line="414" column="45" severity="error" message="Der Parameter broadcastMessageItemEcon sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
-<error line="414" column="58" severity="error" message="&apos;broadcastMessageItemEcon&apos; verbirgt ein Feld." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
-<error line="423" column="5" severity="error" message="Die Methode &apos;setDaysVote&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="423" column="29" severity="error" message="Der Parameter daysVote sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
-<error line="423" column="42" severity="error" message="&apos;daysVote&apos; verbirgt ein Feld." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
-<error line="431" column="5" severity="error" message="Die Methode &apos;setDayVote&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="431" column="28" severity="error" message="Der Parameter dayVote sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
-<error line="431" column="41" severity="error" message="&apos;dayVote&apos; verbirgt ein Feld." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
-<error line="439" column="5" severity="error" message="Die Methode &apos;setFirework&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="439" column="29" severity="error" message="Der Parameter firework sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
-<error line="439" column="37" severity="error" message="&apos;firework&apos; verbirgt ein Feld." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
-<error line="447" column="5" severity="error" message="Die Methode &apos;setFireworkColors&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="447" column="35" severity="error" message="Der Parameter fireworkColors sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
-<error line="447" column="48" severity="error" message="&apos;fireworkColors&apos; verbirgt ein Feld." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
-<error line="455" column="5" severity="error" message="Die Methode &apos;setFireworkFadeColors&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="455" column="39" severity="error" message="Der Parameter fireworkFadeColors sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
-<error line="455" column="52" severity="error" message="&apos;fireworkFadeColors&apos; verbirgt ein Feld." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
-<error line="463" column="5" severity="error" message="Die Methode &apos;setFireworkPower&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="463" column="34" severity="error" message="Der Parameter fireworkPower sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
-<error line="463" column="38" severity="error" message="&apos;fireworkPower&apos; verbirgt ein Feld." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
-<error line="471" column="5" severity="error" message="Die Methode &apos;setFireworkType&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="471" column="33" severity="error" message="Der Parameter fireworkType sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
-<error line="471" column="40" severity="error" message="&apos;fireworkType&apos; verbirgt ein Feld." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
-<error line="479" column="5" severity="error" message="Die Methode &apos;setFixEcon&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="479" column="28" severity="error" message="Der Parameter fixEcon sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
-<error line="479" column="36" severity="error" message="&apos;fixEcon&apos; verbirgt ein Feld." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
-<error line="487" column="5" severity="error" message="Die Methode &apos;setFixEconAmmount&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="487" column="35" severity="error" message="Der Parameter fixEconAmmount sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
-<error line="487" column="39" severity="error" message="&apos;fixEconAmmount&apos; verbirgt ein Feld." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
-<error line="495" column="5" severity="error" message="Die Methode &apos;setGoodChance&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="495" column="31" severity="error" message="Der Parameter goodChance sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
-<error line="495" column="35" severity="error" message="&apos;goodChance&apos; verbirgt ein Feld." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
-<error line="503" column="5" severity="error" message="Die Methode &apos;setGoodItems&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="503" column="30" severity="error" message="Der Parameter goodItems sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
-<error line="503" column="43" severity="error" message="&apos;goodItems&apos; verbirgt ein Feld." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
-<error line="511" column="5" severity="error" message="Die Methode &apos;setGoodMaxAmount&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="511" column="34" severity="error" message="Der Parameter goodMaxAmount sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
-<error line="511" column="38" severity="error" message="&apos;goodMaxAmount&apos; verbirgt ein Feld." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
-<error line="519" column="5" severity="error" message="Die Methode &apos;setGoodMinAmount&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="519" column="34" severity="error" message="Der Parameter goodMinAmount sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
-<error line="519" column="38" severity="error" message="&apos;goodMinAmount&apos; verbirgt ein Feld." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
-<error line="527" column="5" severity="error" message="Die Methode &apos;setInfoVote&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="527" column="29" severity="error" message="Der Parameter infoVote sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
-<error line="527" column="42" severity="error" message="&apos;infoVote&apos; verbirgt ein Feld." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
-<error line="535" column="5" severity="error" message="Die Methode &apos;setLang&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="535" column="25" severity="error" message="Der Parameter lang sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
-<error line="535" column="32" severity="error" message="&apos;lang&apos; verbirgt ein Feld." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
-<error line="543" column="5" severity="error" message="Die Methode &apos;setNoVote&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="543" column="27" severity="error" message="Der Parameter noVote sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
-<error line="543" column="40" severity="error" message="&apos;noVote&apos; verbirgt ein Feld." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
-<error line="551" column="5" severity="error" message="Die Methode &apos;setOnlyEcon&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="551" column="29" severity="error" message="Der Parameter onlyEcon sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
-<error line="551" column="37" severity="error" message="&apos;onlyEcon&apos; verbirgt ein Feld." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
-<error line="559" column="5" severity="error" message="Die Methode &apos;setPoorChance&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="559" column="31" severity="error" message="Der Parameter poorChance sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
-<error line="559" column="35" severity="error" message="&apos;poorChance&apos; verbirgt ein Feld." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
-<error line="567" column="5" severity="error" message="Die Methode &apos;setPoorItems&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="567" column="30" severity="error" message="Der Parameter poorItems sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
-<error line="567" column="43" severity="error" message="&apos;poorItems&apos; verbirgt ein Feld." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
-<error line="575" column="5" severity="error" message="Die Methode &apos;setPoorMaxAmount&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="575" column="34" severity="error" message="Der Parameter poorMaxAmount sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
-<error line="575" column="38" severity="error" message="&apos;poorMaxAmount&apos; verbirgt ein Feld." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
-<error line="583" column="5" severity="error" message="Die Methode &apos;setPoorMinAmount&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="583" column="34" severity="error" message="Der Parameter poorMinAmount sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
-<error line="583" column="38" severity="error" message="&apos;poorMinAmount&apos; verbirgt ein Feld." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
-<error line="591" column="5" severity="error" message="Die Methode &apos;setShowBroadcast&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="591" column="34" severity="error" message="Der Parameter showBroadcast sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
-<error line="591" column="42" severity="error" message="&apos;showBroadcast&apos; verbirgt ein Feld." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
-<error line="599" column="5" severity="error" message="Die Methode &apos;setThxVote&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="599" column="28" severity="error" message="Der Parameter thxVote sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
-<error line="599" column="41" severity="error" message="&apos;thxVote&apos; verbirgt ein Feld." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
-<error line="607" column="5" severity="error" message="Die Methode &apos;setTopChance&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="607" column="30" severity="error" message="Der Parameter topChance sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
-<error line="607" column="34" severity="error" message="&apos;topChance&apos; verbirgt ein Feld." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
-<error line="615" column="5" severity="error" message="Die Methode &apos;setTopItems&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="615" column="29" severity="error" message="Der Parameter topItems sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
-<error line="615" column="42" severity="error" message="&apos;topItems&apos; verbirgt ein Feld." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
-<error line="623" column="5" severity="error" message="Die Methode &apos;setTopMaxAmount&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="623" column="33" severity="error" message="Der Parameter topMaxAmount sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
-<error line="623" column="37" severity="error" message="&apos;topMaxAmount&apos; verbirgt ein Feld." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
-<error line="631" column="5" severity="error" message="Die Methode &apos;setTopMinAmount&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="631" column="33" severity="error" message="Der Parameter topMinAmount sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
-<error line="631" column="37" severity="error" message="&apos;topMinAmount&apos; verbirgt ein Feld." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
-<error line="639" column="5" severity="error" message="Die Methode &apos;setVoteInfo&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="639" column="29" severity="error" message="Der Parameter voteInfo sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
-<error line="639" column="42" severity="error" message="&apos;voteInfo&apos; verbirgt ein Feld." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
 </file>
 <file name="D:\GitHub\NextVote\src\com\github\calenria\nextvote\models\VoteData.java">
-<error line="27" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
-<error line="31" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="34" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="36" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="37" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="38" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="40" column="5" severity="error" message="Die Methode &apos;getId&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="40" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
-<error line="44" column="5" severity="error" message="Die Methode &apos;getIp&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="44" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
-<error line="48" column="5" severity="error" message="Die Methode &apos;getMinecraftUser&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="48" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
-<error line="52" column="5" severity="error" message="Die Methode &apos;getService&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="52" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
-<error line="56" column="5" severity="error" message="Die Methode &apos;getTime&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="56" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
-<error line="60" column="5" severity="error" message="Die Methode &apos;setId&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="60" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
-<error line="60" column="23" severity="error" message="Der Parameter id sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
-<error line="60" column="31" severity="error" message="&apos;id&apos; verbirgt ein Feld." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
-<error line="64" column="5" severity="error" message="Die Methode &apos;setIp&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="64" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
-<error line="64" column="23" severity="error" message="Der Parameter ip sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
-<error line="64" column="30" severity="error" message="&apos;ip&apos; verbirgt ein Feld." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
-<error line="68" column="5" severity="error" message="Die Methode &apos;setMinecraftUser&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="68" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
-<error line="68" column="34" severity="error" message="Der Parameter player sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
-<error line="72" column="5" severity="error" message="Die Methode &apos;setService&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="72" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
-<error line="72" column="28" severity="error" message="Der Parameter service sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
-<error line="72" column="35" severity="error" message="&apos;service&apos; verbirgt ein Feld." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
-<error line="76" column="5" severity="error" message="Die Methode &apos;setTime&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="76" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
-<error line="76" column="25" severity="error" message="Der Parameter time sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
-<error line="76" column="35" severity="error" message="&apos;time&apos; verbirgt ein Feld." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
 </file>
 <file name="D:\GitHub\NextVote\src\com\github\calenria\nextvote\models\VoteHistory.java">
-<error line="10" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
-<error line="13" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="16" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="18" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="20" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="22" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="23" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="25" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="27" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="29" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="30" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="31" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="33" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="34" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="36" column="5" severity="warning" message="Javadoc-Kommentar fehlt." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="42" column="5" severity="error" message="Die Methode &apos;getAmmount&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="49" column="5" severity="error" message="Die Methode &apos;getDamage&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="56" column="5" severity="error" message="Die Methode &apos;getEcon&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="63" column="5" severity="error" message="Die Methode &apos;getEconAmmount&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="70" column="5" severity="error" message="Die Methode &apos;getId&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="77" column="5" severity="error" message="Die Methode &apos;getItem&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="84" column="5" severity="error" message="Die Methode &apos;getLastUpdate&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="91" column="5" severity="error" message="Die Methode &apos;getLocalName&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="98" column="5" severity="error" message="Die Methode &apos;getMaterial&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="105" column="5" severity="error" message="Die Methode &apos;getMinecraftUser&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="112" column="5" severity="error" message="Die Methode &apos;getName&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="119" column="5" severity="error" message="Die Methode &apos;getPaid&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="126" column="5" severity="error" message="Die Methode &apos;getPaidEcon&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="133" column="5" severity="error" message="Die Methode &apos;getTime&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="140" column="5" severity="error" message="Die Methode &apos;hasEcon&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="147" column="5" severity="error" message="Die Methode &apos;hasItem&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="154" column="5" severity="error" message="Die Methode &apos;hasPaidEcon&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="161" column="5" severity="error" message="Die Methode &apos;isEcon&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="168" column="5" severity="error" message="Die Methode &apos;isItem&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="175" column="5" severity="error" message="Die Methode &apos;isPaid&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="182" column="5" severity="error" message="Die Methode &apos;isPaidEcon&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="190" column="5" severity="error" message="Die Methode &apos;setAmmount&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="190" column="28" severity="error" message="Der Parameter ammount sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
-<error line="190" column="32" severity="error" message="&apos;ammount&apos; verbirgt ein Feld." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
-<error line="198" column="5" severity="error" message="Die Methode &apos;setDamage&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="198" column="27" severity="error" message="Der Parameter damage sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
-<error line="198" column="33" severity="error" message="&apos;damage&apos; verbirgt ein Feld." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
-<error line="206" column="5" severity="error" message="Die Methode &apos;setEcon&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="206" column="25" severity="error" message="Der Parameter econ sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
-<error line="206" column="33" severity="error" message="&apos;econ&apos; verbirgt ein Feld." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
-<error line="214" column="5" severity="error" message="Die Methode &apos;setEconAmmount&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="214" column="32" severity="error" message="Der Parameter d sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
-<error line="218" severity="warning" message="Der erste Satz sollte mit einem Punkt abschließen." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
-<error line="221" column="5" severity="error" message="Die Methode &apos;setId&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="221" column="23" severity="error" message="Der Parameter id sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
-<error line="221" column="31" severity="error" message="&apos;id&apos; verbirgt ein Feld." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
-<error line="221" column="31" severity="warning" message="Erwartete Tag @param für &apos;id&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
-<error line="229" column="5" severity="error" message="Die Methode &apos;setItem&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="229" column="25" severity="error" message="Der Parameter item sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
-<error line="229" column="33" severity="error" message="&apos;item&apos; verbirgt ein Feld." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
-<error line="237" column="5" severity="error" message="Die Methode &apos;setLastUpdate&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="237" column="31" severity="error" message="Der Parameter lastUpdate sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
-<error line="237" column="41" severity="error" message="&apos;lastUpdate&apos; verbirgt ein Feld." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
-<error line="245" column="5" severity="error" message="Die Methode &apos;setLocalName&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="245" column="30" severity="error" message="Der Parameter localName sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
-<error line="245" column="37" severity="error" message="&apos;localName&apos; verbirgt ein Feld." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
-<error line="253" column="5" severity="error" message="Die Methode &apos;setMaterial&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="253" column="29" severity="error" message="Der Parameter material sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
-<error line="253" column="33" severity="error" message="&apos;material&apos; verbirgt ein Feld." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
-<error line="261" column="5" severity="error" message="Die Methode &apos;setMinecraftUser&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="261" column="34" severity="error" message="Der Parameter minecraftUser sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
-<error line="261" column="41" severity="error" message="&apos;minecraftUser&apos; verbirgt ein Feld." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
-<error line="269" column="5" severity="error" message="Die Methode &apos;setName&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="269" column="25" severity="error" message="Der Parameter name sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
-<error line="269" column="32" severity="error" message="&apos;name&apos; verbirgt ein Feld." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
-<error line="277" column="5" severity="error" message="Die Methode &apos;setPaid&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="277" column="25" severity="error" message="Der Parameter paid sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
-<error line="277" column="33" severity="error" message="&apos;paid&apos; verbirgt ein Feld." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
-<error line="282" column="8" severity="warning" message="Nicht benutztes @param-Tag für &apos;econ&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
-<error line="285" column="5" severity="error" message="Die Methode &apos;setPaidEcon&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="285" column="29" severity="error" message="Der Parameter paidEcon sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
-<error line="285" column="37" severity="error" message="&apos;paidEcon&apos; verbirgt ein Feld." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
-<error line="285" column="37" severity="warning" message="Erwartete Tag @param für &apos;paidEcon&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
-<error line="293" column="5" severity="error" message="Die Methode &apos;setTime&apos; ist nicht für Vererbung entworfen - muss abstract, final oder leer sein." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
-<error line="293" column="25" severity="error" message="Der Parameter time sollte als &apos;final&apos; deklariert sein." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
-<error line="293" column="35" severity="error" message="&apos;time&apos; verbirgt ein Feld." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
 </file>
 <file name="D:\GitHub\NextVote\src\com\github\calenria\nextvote\NextVote.java">
 </file>
 <file name="D:\GitHub\NextVote\src\com\github\calenria\nextvote\NextVoteItem.java">
-<error line="1" severity="info" message="20 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\NextVote.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="1" severity="info" message="19 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\NextVote.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
 </file>
 <file name="D:\GitHub\NextVote\src\com\github\calenria\nextvote\NextVoteRadomItem.java">
-<error line="1" severity="info" message="20 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\NextVote.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
-<error line="1" severity="info" message="20 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\NextVoteItem.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
-<error line="154" severity="info" message="13 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\NextVoteItem.java, beginnend bei Zeile 94" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="1" severity="info" message="19 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\NextVote.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="1" severity="info" message="19 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\NextVoteItem.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="153" severity="info" message="13 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\NextVoteItem.java, beginnend bei Zeile 93" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
 </file>
 <file name="D:\GitHub\NextVote\src\com\github\calenria\nextvote\Utils.java">
-<error line="1" severity="info" message="20 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\NextVoteItem.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
-<error line="1" severity="info" message="20 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\NextVoteRadomItem.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
-<error line="1" severity="info" message="21 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\NextVote.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="1" severity="info" message="19 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\NextVoteItem.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="1" severity="info" message="19 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\NextVoteRadomItem.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="1" severity="info" message="20 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\NextVote.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
 </file>
 <file name="D:\GitHub\NextVote\src\com\github\calenria\nextvote\commands\CommandHandler.java">
 <error line="1" severity="info" message="17 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\NextVote.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
@@ -358,12 +51,12 @@
 <error line="1" severity="info" message="19 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\commands\CommandHandler.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
 </file>
 <file name="D:\GitHub\NextVote\src\com\github\calenria\nextvote\listener\NextVoteListener.java">
+<error line="1" severity="info" message="17 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\NextVote.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="1" severity="info" message="17 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\NextVoteItem.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="1" severity="info" message="17 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\NextVoteRadomItem.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="1" severity="info" message="17 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\Utils.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
 <error line="1" severity="info" message="17 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\commands\CommandHandler.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
 <error line="1" severity="info" message="17 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\commands\VoteCommands.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
-<error line="1" severity="info" message="18 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\NextVote.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
-<error line="1" severity="info" message="18 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\NextVoteItem.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
-<error line="1" severity="info" message="18 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\NextVoteRadomItem.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
-<error line="1" severity="info" message="18 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\Utils.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
 </file>
 <file name="D:\GitHub\NextVote\src\com\github\calenria\nextvote\managers\NextVoteManager.java">
 <error line="1" severity="info" message="17 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\NextVote.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
@@ -373,19 +66,39 @@
 <error line="1" severity="info" message="17 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\commands\CommandHandler.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
 <error line="1" severity="info" message="17 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\commands\VoteCommands.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
 <error line="1" severity="info" message="17 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\listener\NextVoteListener.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="56" severity="info" message="14 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\listener\NextVoteListener.java, beginnend bei Zeile 50" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
 </file>
 <file name="D:\GitHub\NextVote\src\com\github\calenria\nextvote\models\ConfigData.java">
-</file>
-<file name="D:\GitHub\NextVote\src\com\github\calenria\nextvote\models\VoteData.java">
+<error line="1" severity="info" message="17 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\NextVote.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="1" severity="info" message="17 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\NextVoteItem.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="1" severity="info" message="17 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\NextVoteRadomItem.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="1" severity="info" message="17 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\Utils.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
 <error line="1" severity="info" message="17 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\commands\CommandHandler.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
 <error line="1" severity="info" message="17 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\commands\VoteCommands.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="1" severity="info" message="17 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\listener\NextVoteListener.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
 <error line="1" severity="info" message="17 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\managers\NextVoteManager.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
-<error line="1" severity="info" message="18 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\NextVote.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
-<error line="1" severity="info" message="18 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\NextVoteItem.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
-<error line="1" severity="info" message="18 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\NextVoteRadomItem.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
-<error line="1" severity="info" message="18 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\Utils.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
-<error line="1" severity="info" message="18 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\listener\NextVoteListener.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+</file>
+<file name="D:\GitHub\NextVote\src\com\github\calenria\nextvote\models\VoteData.java">
+<error line="1" severity="info" message="17 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\NextVote.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="1" severity="info" message="17 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\NextVoteItem.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="1" severity="info" message="17 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\NextVoteRadomItem.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="1" severity="info" message="17 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\Utils.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="1" severity="info" message="17 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\commands\CommandHandler.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="1" severity="info" message="17 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\commands\VoteCommands.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="1" severity="info" message="17 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\listener\NextVoteListener.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="1" severity="info" message="17 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\managers\NextVoteManager.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="1" severity="info" message="19 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\models\ConfigData.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
 </file>
 <file name="D:\GitHub\NextVote\src\com\github\calenria\nextvote\models\VoteHistory.java">
+<error line="1" severity="info" message="17 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\NextVote.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="1" severity="info" message="17 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\NextVoteItem.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="1" severity="info" message="17 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\NextVoteRadomItem.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="1" severity="info" message="17 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\Utils.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="1" severity="info" message="17 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\commands\CommandHandler.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="1" severity="info" message="17 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\commands\VoteCommands.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="1" severity="info" message="17 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\listener\NextVoteListener.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="1" severity="info" message="17 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\managers\NextVoteManager.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="1" severity="info" message="19 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\models\ConfigData.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
+<error line="1" severity="info" message="24 gleiche Zeilen in D:\GitHub\NextVote\src\com\github\calenria\nextvote\models\VoteData.java, beginnend bei Zeile 1" source="com.puppycrawl.tools.checkstyle.checks.duplicates.StrictDuplicateCodeCheck"/>
 </file>
 </checkstyle>

@@ -23,47 +23,167 @@ import org.bukkit.configuration.file.FileConfiguration;
 
 import com.github.calenria.nextvote.NextVote;
 
+/**
+ * Konfigurations Klasse.
+ * 
+ * @author Calenria
+ * 
+ */
 public class ConfigData {
 
+    /**
+     * Die gewählte Sprache.
+     */
     private String       lang;
+    /**
+     * Liste von Strings die bei /vote ausgegeben wird.
+     */
     private List<String> voteInfo;
+    /**
+     * Liste von String die als Danke für einen Vote ausgegeben wird.
+     */
     private List<String> thxVote;
+    /**
+     *
+     */
     private List<String> noVote;
+    /**
+     *
+     */
     private List<String> dayVote;
+    /**
+     *
+     */
     private List<String> daysVote;
+    /**
+     *
+     */
     private List<String> infoVote;
+    /**
+     *
+     */
     private boolean      showBroadcast;
+    /**
+     *
+     */
     private boolean      bonusItem;
+    /**
+     *
+     */
     private int          bonusChance;
+    /**
+     *
+     */
     private int          poorChance;
+    /**
+     *
+     */
     private int          averageChance;
+    /**
+     *
+     */
     private int          goodChance;
+    /**
+     *
+     */
     private int          topChance;
+    /**
+     *
+     */
     private int          poorMinAmount;
+    /**
+     *
+     */
     private int          poorMaxAmount;
+    /**
+     *
+     */
     private int          averageMinAmount;
+    /**
+     *
+     */
     private int          averageMaxAmount;
+    /**
+     *
+     */
     private int          goodMinAmount;
+    /**
+     *
+     */
     private int          goodMaxAmount;
+    /**
+     *
+     */
     private int          topMinAmount;
+    /**
+     *
+     */
     private int          topMaxAmount;
+    /**
+     *
+     */
     private List<String> poorItems;
+    /**
+     *
+     */
     private List<String> averageItems;
+    /**
+     *
+     */
     private List<String> goodItems;
+    /**
+     *
+     */
     private List<String> topItems;
+    /**
+     *
+     */
     private List<String> broadcastMessageItem;
+    /**
+     *
+     */
     private List<String> broadcastMessageEcon;
+    /**
+     *
+     */
     private List<String> broadcastMessageItemEcon;
+    /**
+     *
+     */
     private List<String> fireworkColors;
+    /**
+     *
+     */
     private List<String> fireworkFadeColors;
+    /**
+     *
+     */
     private String       fireworkType;
+    /**
+     *
+     */
     private int          fireworkPower;
+    /**
+     *
+     */
     private boolean      firework;
-
+    /**
+     *
+     */
     private boolean      onlyEcon;
+    /**
+     *
+     */
     private boolean      fixEcon;
+    /**
+     *
+     */
     private int          fixEconAmmount;
 
+    /**
+     * @param plugin
+     *            NextVote Plugin
+     */
     public ConfigData(final NextVote plugin) {
         FileConfiguration config = plugin.getConfig();
         setLang(config.getString("lang"));
@@ -107,550 +227,557 @@ public class ConfigData {
     /**
      * @return the averageChance
      */
-    public int getAverageChance() {
+    public final int getAverageChance() {
         return averageChance;
     }
 
     /**
      * @return the averageItems
      */
-    public List<String> getAverageItems() {
+    public final List<String> getAverageItems() {
         return averageItems;
     }
 
     /**
      * @return the averageMaxAmount
      */
-    public int getAverageMaxAmount() {
+    public final int getAverageMaxAmount() {
         return averageMaxAmount;
     }
 
     /**
      * @return the averageMinAmount
      */
-    public int getAverageMinAmount() {
+    public final int getAverageMinAmount() {
         return averageMinAmount;
     }
 
     /**
      * @return the bonusChance
      */
-    public int getBonusChance() {
+    public final int getBonusChance() {
         return bonusChance;
     }
 
     /**
      * @return the broadcastMessageEcon
      */
-    public List<String> getBroadcastMessageEcon() {
+    public final List<String> getBroadcastMessageEcon() {
         return broadcastMessageEcon;
     }
 
     /**
      * @return the broadcastMessageItem
      */
-    public List<String> getBroadcastMessageItem() {
+    public final List<String> getBroadcastMessageItem() {
         return broadcastMessageItem;
     }
 
-    public List<String> getBroadcastMessageItemEcon() {
+    /**
+     * @return the getBroadcastMessageItemEcon
+     */
+    public final List<String> getBroadcastMessageItemEcon() {
         return broadcastMessageItemEcon;
     }
 
     /**
      * @return the daysVote
      */
-    public List<String> getDaysVote() {
+    public final List<String> getDaysVote() {
         return daysVote;
     }
 
     /**
      * @return the dayVote
      */
-    public List<String> getDayVote() {
+    public final List<String> getDayVote() {
         return dayVote;
     }
 
     /**
      * @return the fireworkColors
      */
-    public List<String> getFireworkColors() {
+    public final List<String> getFireworkColors() {
         return fireworkColors;
     }
 
     /**
      * @return the fireworkFadeColors
      */
-    public List<String> getFireworkFadeColors() {
+    public final List<String> getFireworkFadeColors() {
         return fireworkFadeColors;
     }
 
     /**
      * @return the fireworkPower
      */
-    public int getFireworkPower() {
+    public final int getFireworkPower() {
         return fireworkPower;
     }
 
     /**
      * @return the fireworkType
      */
-    public String getFireworkType() {
+    public final String getFireworkType() {
         return fireworkType;
     }
 
     /**
      * @return the fixEconAmmount
      */
-    public int getFixEconAmmount() {
+    public final int getFixEconAmmount() {
         return fixEconAmmount;
     }
 
     /**
      * @return the goodChance
      */
-    public int getGoodChance() {
+    public final int getGoodChance() {
         return goodChance;
     }
 
     /**
      * @return the goodItems
      */
-    public List<String> getGoodItems() {
+    public final List<String> getGoodItems() {
         return goodItems;
     }
 
     /**
      * @return the goodMaxAmount
      */
-    public int getGoodMaxAmount() {
+    public final int getGoodMaxAmount() {
         return goodMaxAmount;
     }
 
     /**
      * @return the goodMinAmount
      */
-    public int getGoodMinAmount() {
+    public final int getGoodMinAmount() {
         return goodMinAmount;
     }
 
     /**
      * @return the infoVote
      */
-    public List<String> getInfoVote() {
+    public final List<String> getInfoVote() {
         return infoVote;
     }
 
     /**
      * @return the lang
      */
-    public String getLang() {
+    public final String getLang() {
         return lang;
     }
 
     /**
      * @return the noVote
      */
-    public List<String> getNoVote() {
+    public final List<String> getNoVote() {
         return noVote;
     }
 
     /**
      * @return the poorChance
      */
-    public int getPoorChance() {
+    public final int getPoorChance() {
         return poorChance;
     }
 
     /**
      * @return the poorItems
      */
-    public List<String> getPoorItems() {
+    public final List<String> getPoorItems() {
         return poorItems;
     }
 
     /**
      * @return the poorMaxAmount
      */
-    public int getPoorMaxAmount() {
+    public final int getPoorMaxAmount() {
         return poorMaxAmount;
     }
 
     /**
      * @return the poorMinAmount
      */
-    public int getPoorMinAmount() {
+    public final int getPoorMinAmount() {
         return poorMinAmount;
     }
 
     /**
      * @return the thxVote
      */
-    public List<String> getThxVote() {
+    public final List<String> getThxVote() {
         return thxVote;
     }
 
     /**
      * @return the topChance
      */
-    public int getTopChance() {
+    public final int getTopChance() {
         return topChance;
     }
 
     /**
      * @return the topItems
      */
-    public List<String> getTopItems() {
+    public final List<String> getTopItems() {
         return topItems;
     }
 
     /**
      * @return the topMaxAmount
      */
-    public int getTopMaxAmount() {
+    public final int getTopMaxAmount() {
         return topMaxAmount;
     }
 
     /**
      * @return the topMinAmount
      */
-    public int getTopMinAmount() {
+    public final int getTopMinAmount() {
         return topMinAmount;
     }
 
     /**
      * @return the voteInfo
      */
-    public List<String> getVoteInfo() {
+    public final List<String> getVoteInfo() {
         return voteInfo;
     }
 
     /**
      * @return the bonusItem
      */
-    public boolean isBonusItem() {
+    public final boolean isBonusItem() {
         return bonusItem;
     }
 
     /**
      * @return the firework
      */
-    public boolean isFirework() {
+    public final boolean isFirework() {
         return firework;
     }
 
     /**
      * @return the fixEcon
      */
-    public boolean isFixEcon() {
+    public final boolean isFixEcon() {
         return fixEcon;
     }
 
     /**
      * @return the onlyEcon
      */
-    public boolean isOnlyEcon() {
+    public final boolean isOnlyEcon() {
         return onlyEcon;
     }
 
     /**
      * @return the showBroadcast
      */
-    public boolean isShowBroadcast() {
+    public final boolean isShowBroadcast() {
         return showBroadcast;
     }
 
     /**
-     * @param averageChance
+     * @param cAverageChance
      *            the averageChance to set
      */
-    public void setAverageChance(int averageChance) {
-        this.averageChance = averageChance;
+    public final void setAverageChance(final int cAverageChance) {
+        this.averageChance = cAverageChance;
     }
 
     /**
-     * @param averageItems
+     * @param cAverageItems
      *            the averageItems to set
      */
-    public void setAverageItems(List<String> averageItems) {
-        this.averageItems = averageItems;
+    public final void setAverageItems(final List<String> cAverageItems) {
+        this.averageItems = cAverageItems;
     }
 
     /**
-     * @param averageMaxAmount
+     * @param cAverageMaxAmount
      *            the averageMaxAmount to set
      */
-    public void setAverageMaxAmount(int averageMaxAmount) {
-        this.averageMaxAmount = averageMaxAmount;
+    public final void setAverageMaxAmount(final int cAverageMaxAmount) {
+        this.averageMaxAmount = cAverageMaxAmount;
     }
 
     /**
-     * @param averageMinAmount
+     * @param cAverageMinAmount
      *            the averageMinAmount to set
      */
-    public void setAverageMinAmount(int averageMinAmount) {
-        this.averageMinAmount = averageMinAmount;
+    public final void setAverageMinAmount(final int cAverageMinAmount) {
+        this.averageMinAmount = cAverageMinAmount;
     }
 
     /**
-     * @param bonusChance
+     * @param cBonusChance
      *            the bonusChance to set
      */
-    public void setBonusChance(int bonusChance) {
-        this.bonusChance = bonusChance;
+    public final void setBonusChance(final int cBonusChance) {
+        this.bonusChance = cBonusChance;
     }
 
     /**
-     * @param bonusItem
+     * @param cBonusItem
      *            the bonusItem to set
      */
-    public void setBonusItem(boolean bonusItem) {
-        this.bonusItem = bonusItem;
+    public final void setBonusItem(final boolean cBonusItem) {
+        this.bonusItem = cBonusItem;
     }
 
     /**
-     * @param broadcastMessageEcon
+     * @param cBroadcastMessageEcon
      *            the broadcastMessageEcon to set
      */
-    public void setBroadcastMessageEcon(List<String> broadcastMessageEcon) {
-        this.broadcastMessageEcon = broadcastMessageEcon;
+    public final void setBroadcastMessageEcon(final List<String> cBroadcastMessageEcon) {
+        this.broadcastMessageEcon = cBroadcastMessageEcon;
     }
 
     /**
-     * @param broadcastMessageItem
+     * @param cBroadcastMessageItem
      *            the broadcastMessageItem to set
      */
-    public void setBroadcastMessageItem(List<String> broadcastMessageItem) {
-        this.broadcastMessageItem = broadcastMessageItem;
+    public final void setBroadcastMessageItem(final List<String> cBroadcastMessageItem) {
+        this.broadcastMessageItem = cBroadcastMessageItem;
     }
 
-    public void setBroadcastMessageItemEcon(List<String> broadcastMessageItemEcon) {
-        this.broadcastMessageItemEcon = broadcastMessageItemEcon;
+    /**
+     * @param cBroadcastMessageItemEcon
+     *            the broadcastMessageItemEcon to set
+     */
+    public final void setBroadcastMessageItemEcon(final List<String> cBroadcastMessageItemEcon) {
+        this.broadcastMessageItemEcon = cBroadcastMessageItemEcon;
 
     }
 
     /**
-     * @param daysVote
+     * @param cDaysVote
      *            the daysVote to set
      */
-    public void setDaysVote(List<String> daysVote) {
-        this.daysVote = daysVote;
+    public final void setDaysVote(final List<String> cDaysVote) {
+        this.daysVote = cDaysVote;
     }
 
     /**
-     * @param dayVote
+     * @param cDayVote
      *            the dayVote to set
      */
-    public void setDayVote(List<String> dayVote) {
-        this.dayVote = dayVote;
+    public final void setDayVote(final List<String> cDayVote) {
+        this.dayVote = cDayVote;
     }
 
     /**
-     * @param firework
+     * @param cFirework
      *            the firework to set
      */
-    public void setFirework(boolean firework) {
-        this.firework = firework;
+    public final void setFirework(final boolean cFirework) {
+        this.firework = cFirework;
     }
 
     /**
-     * @param fireworkColors
+     * @param cFireworkColors
      *            the fireworkColors to set
      */
-    public void setFireworkColors(List<String> fireworkColors) {
-        this.fireworkColors = fireworkColors;
+    public final void setFireworkColors(final List<String> cFireworkColors) {
+        this.fireworkColors = cFireworkColors;
     }
 
     /**
-     * @param fireworkFadeColors
+     * @param cFireworkFadeColors
      *            the fireworkFadeColors to set
      */
-    public void setFireworkFadeColors(List<String> fireworkFadeColors) {
-        this.fireworkFadeColors = fireworkFadeColors;
+    public final void setFireworkFadeColors(final List<String> cFireworkFadeColors) {
+        this.fireworkFadeColors = cFireworkFadeColors;
     }
 
     /**
-     * @param fireworkPower
-     *            the fireworkPower to set
+     * @param cFireworkPower
+     *            the cFireworkPower to set
      */
-    public void setFireworkPower(int fireworkPower) {
-        this.fireworkPower = fireworkPower;
+    public final void setFireworkPower(final int cFireworkPower) {
+        this.fireworkPower = cFireworkPower;
     }
 
     /**
-     * @param fireworkType
+     * @param cFireworkType
      *            the fireworkType to set
      */
-    public void setFireworkType(String fireworkType) {
-        this.fireworkType = fireworkType;
+    public final void setFireworkType(final String cFireworkType) {
+        this.fireworkType = cFireworkType;
     }
 
     /**
-     * @param fixEcon
+     * @param cFixEcon
      *            the fixEcon to set
      */
-    public void setFixEcon(boolean fixEcon) {
-        this.fixEcon = fixEcon;
+    public final void setFixEcon(final boolean cFixEcon) {
+        this.fixEcon = cFixEcon;
     }
 
     /**
-     * @param fixEconAmmount
+     * @param cFixEconAmmount
      *            the fixEconAmmount to set
      */
-    public void setFixEconAmmount(int fixEconAmmount) {
-        this.fixEconAmmount = fixEconAmmount;
+    public final void setFixEconAmmount(final int cFixEconAmmount) {
+        this.fixEconAmmount = cFixEconAmmount;
     }
 
     /**
-     * @param goodChance
+     * @param cGoodChance
      *            the goodChance to set
      */
-    public void setGoodChance(int goodChance) {
-        this.goodChance = goodChance;
+    public final void setGoodChance(final int cGoodChance) {
+        this.goodChance = cGoodChance;
     }
 
     /**
-     * @param goodItems
+     * @param cGoodItems
      *            the goodItems to set
      */
-    public void setGoodItems(List<String> goodItems) {
-        this.goodItems = goodItems;
+    public final void setGoodItems(final List<String> cGoodItems) {
+        this.goodItems = cGoodItems;
     }
 
     /**
-     * @param goodMaxAmount
+     * @param cGoodMaxAmount
      *            the goodMaxAmount to set
      */
-    public void setGoodMaxAmount(int goodMaxAmount) {
-        this.goodMaxAmount = goodMaxAmount;
+    public final void setGoodMaxAmount(final int cGoodMaxAmount) {
+        this.goodMaxAmount = cGoodMaxAmount;
     }
 
     /**
-     * @param goodMinAmount
+     * @param cGoodMinAmount
      *            the goodMinAmount to set
      */
-    public void setGoodMinAmount(int goodMinAmount) {
-        this.goodMinAmount = goodMinAmount;
+    public final void setGoodMinAmount(final int cGoodMinAmount) {
+        this.goodMinAmount = cGoodMinAmount;
     }
 
     /**
-     * @param infoVote
+     * @param cInfoVote
      *            the infoVote to set
      */
-    public void setInfoVote(List<String> infoVote) {
-        this.infoVote = infoVote;
+    public final void setInfoVote(final List<String> cInfoVote) {
+        this.infoVote = cInfoVote;
     }
 
     /**
-     * @param lang
+     * @param cLang
      *            the lang to set
      */
-    public void setLang(String lang) {
-        this.lang = lang;
+    public final void setLang(final String cLang) {
+        this.lang = cLang;
     }
 
     /**
-     * @param noVote
+     * @param cNoVote
      *            the noVote to set
      */
-    public void setNoVote(List<String> noVote) {
-        this.noVote = noVote;
+    public final void setNoVote(final List<String> cNoVote) {
+        this.noVote = cNoVote;
     }
 
     /**
-     * @param onlyEcon
+     * @param cOnlyEcon
      *            the onlyEcon to set
      */
-    public void setOnlyEcon(boolean onlyEcon) {
-        this.onlyEcon = onlyEcon;
+    public final void setOnlyEcon(final boolean cOnlyEcon) {
+        this.onlyEcon = cOnlyEcon;
     }
 
     /**
-     * @param poorChance
+     * @param cPoorChance
      *            the poorChance to set
      */
-    public void setPoorChance(int poorChance) {
-        this.poorChance = poorChance;
+    public final void setPoorChance(final int cPoorChance) {
+        this.poorChance = cPoorChance;
     }
 
     /**
-     * @param poorItems
+     * @param cPoorItems
      *            the poorItems to set
      */
-    public void setPoorItems(List<String> poorItems) {
-        this.poorItems = poorItems;
+    public final void setPoorItems(final List<String> cPoorItems) {
+        this.poorItems = cPoorItems;
     }
 
     /**
-     * @param poorMaxAmount
+     * @param cPoorMaxAmount
      *            the poorMaxAmount to set
      */
-    public void setPoorMaxAmount(int poorMaxAmount) {
-        this.poorMaxAmount = poorMaxAmount;
+    public final void setPoorMaxAmount(final int cPoorMaxAmount) {
+        this.poorMaxAmount = cPoorMaxAmount;
     }
 
     /**
-     * @param poorMinAmount
+     * @param cPoorMinAmount
      *            the poorMinAmount to set
      */
-    public void setPoorMinAmount(int poorMinAmount) {
-        this.poorMinAmount = poorMinAmount;
+    public final void setPoorMinAmount(final int cPoorMinAmount) {
+        this.poorMinAmount = cPoorMinAmount;
     }
 
     /**
-     * @param showBroadcast
+     * @param cShowBroadcast
      *            the showBroadcast to set
      */
-    public void setShowBroadcast(boolean showBroadcast) {
-        this.showBroadcast = showBroadcast;
+    public final void setShowBroadcast(final boolean cShowBroadcast) {
+        this.showBroadcast = cShowBroadcast;
     }
 
     /**
-     * @param thxVote
+     * @param cThxVote
      *            the thxVote to set
      */
-    public void setThxVote(List<String> thxVote) {
-        this.thxVote = thxVote;
+    public final void setThxVote(final List<String> cThxVote) {
+        this.thxVote = cThxVote;
     }
 
     /**
-     * @param topChance
+     * @param cTopChance
      *            the topChance to set
      */
-    public void setTopChance(int topChance) {
-        this.topChance = topChance;
+    public final void setTopChance(final int cTopChance) {
+        this.topChance = cTopChance;
     }
 
     /**
-     * @param topItems
+     * @param cTopItems
      *            the topItems to set
      */
-    public void setTopItems(List<String> topItems) {
-        this.topItems = topItems;
+    public final void setTopItems(final List<String> cTopItems) {
+        this.topItems = cTopItems;
     }
 
     /**
-     * @param topMaxAmount
+     * @param cTopMaxAmount
      *            the topMaxAmount to set
      */
-    public void setTopMaxAmount(int topMaxAmount) {
-        this.topMaxAmount = topMaxAmount;
+    public final void setTopMaxAmount(final int cTopMaxAmount) {
+        this.topMaxAmount = cTopMaxAmount;
     }
 
     /**
-     * @param topMinAmount
+     * @param cTopMinAmount
      *            the topMinAmount to set
      */
-    public void setTopMinAmount(int topMinAmount) {
-        this.topMinAmount = topMinAmount;
+    public final void setTopMinAmount(final int cTopMinAmount) {
+        this.topMinAmount = cTopMinAmount;
     }
 
     /**
-     * @param voteInfo
+     * @param cVoteInfo
      *            the voteInfo to set
      */
-    public void setVoteInfo(List<String> voteInfo) {
-        this.voteInfo = voteInfo;
+    public final void setVoteInfo(final List<String> cVoteInfo) {
+        this.voteInfo = cVoteInfo;
     }
 
 }

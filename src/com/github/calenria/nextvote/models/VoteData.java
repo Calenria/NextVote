@@ -23,57 +23,117 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+/**
+ * Datenbank Model für die eigentlichen Votes.
+ * 
+ * @author Calenria
+ * 
+ */
+/**
+ * @author Calenria
+ * 
+ */
 @Entity
 @Table(name = "skymine_votes")
 public class VoteData {
 
+    /**
+     * Die Vote Id.
+     */
     @Id
     private Integer   id;
 
+    /**
+     * Spielername des Voters.
+     */
     private String    minecraftUser;
 
+    /**
+     * Zeitpunkt des Votes.
+     */
     private Timestamp time;
+    /**
+     * Die Ipadresse des Voters.
+     */
     private String    ip;
+    /**
+     * Der VoteService (minecraft-server.eu z.B.).
+     */
     private String    service;
 
-    public Integer getId() {
+    /**
+     * @return Die Vote Id
+     */
+    public final Integer getId() {
         return id;
     }
 
-    public String getIp() {
+    /**
+     * @return Die Ipadresse des Voters
+     */
+    public final String getIp() {
         return ip;
     }
 
-    public String getMinecraftUser() {
+    /**
+     * @return Spielername des Voters.
+     */
+    public final String getMinecraftUser() {
         return minecraftUser;
     }
 
-    public String getService() {
+    /**
+     * @return Der VoteService (minecraft-server.eu z.B.).
+     */
+    public final String getService() {
         return service;
     }
 
-    public Timestamp getTime() {
+    /**
+     * @return Zeitpunkt des Votes.
+     */
+    public final Timestamp getTime() {
         return time;
     }
 
-    public void setId(Integer id) {
-        this.id = id;
+    /**
+     * @param vId
+     *            Die Vote Id.
+     */
+    public final void setId(final Integer vId) {
+        this.id = vId;
     }
 
-    public void setIp(String ip) {
-        this.ip = ip;
+    /**
+     * @param vIp
+     *            Die Ipadresse des Voters
+     */
+    public final void setIp(final String vIp) {
+        this.ip = vIp;
     }
 
-    public void setMinecraftUser(String player) {
-        this.minecraftUser = player;
+    /**
+     * @param vPlayer
+     *            Spielername des Voters.
+     */
+    public final void setMinecraftUser(final String vPlayer) {
+        this.minecraftUser = vPlayer;
     }
 
-    public void setService(String service) {
-        this.service = service;
+    /**
+     * @param vService
+     *            Der VoteService (minecraft-server.eu z.B.).
+     */
+    public final void setService(final String vService) {
+        this.service = vService;
     }
 
-    public void setTime(Timestamp time) {
-        this.time = time;
+    /**
+     * @param vTime
+     *            Zeitpunkt des Votes.
+     */
+    public final void setTime(final Timestamp vTime) {
+        this.time = vTime;
     }
 
 }
