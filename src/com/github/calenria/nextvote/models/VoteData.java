@@ -29,10 +29,6 @@ import javax.persistence.Table;
  * @author Calenria
  * 
  */
-/**
- * @author Calenria
- * 
- */
 @Entity
 @Table(name = "skymine_votes")
 public class VoteData {
@@ -64,35 +60,35 @@ public class VoteData {
     /**
      * @return Die Vote Id
      */
-    public final Integer getId() {
+    public Integer getId() {
         return id;
     }
-
+    
     /**
      * @return Die Ipadresse des Voters
      */
-    public final String getIp() {
+    public String getIp() {
         return ip;
     }
 
     /**
      * @return Spielername des Voters.
      */
-    public final String getMinecraftUser() {
+    public String getMinecraftUser() {
         return minecraftUser;
     }
 
     /**
      * @return Der VoteService (minecraft-server.eu z.B.).
      */
-    public final String getService() {
+    public String getService() {
         return service;
     }
 
     /**
      * @return Zeitpunkt des Votes.
      */
-    public final Timestamp getTime() {
+    public Timestamp getTime() {
         return time;
     }
 
@@ -100,7 +96,7 @@ public class VoteData {
      * @param vId
      *            Die Vote Id.
      */
-    public final void setId(final Integer vId) {
+    public void setId(final Integer vId) {
         this.id = vId;
     }
 
@@ -108,7 +104,7 @@ public class VoteData {
      * @param vIp
      *            Die Ipadresse des Voters
      */
-    public final void setIp(final String vIp) {
+    public void setIp(final String vIp) {
         this.ip = vIp;
     }
 
@@ -116,7 +112,7 @@ public class VoteData {
      * @param vPlayer
      *            Spielername des Voters.
      */
-    public final void setMinecraftUser(final String vPlayer) {
+    public void setMinecraftUser(final String vPlayer) {
         this.minecraftUser = vPlayer;
     }
 
@@ -124,7 +120,7 @@ public class VoteData {
      * @param vService
      *            Der VoteService (minecraft-server.eu z.B.).
      */
-    public final void setService(final String vService) {
+    public void setService(final String vService) {
         this.service = vService;
     }
 
@@ -132,7 +128,7 @@ public class VoteData {
      * @param vTime
      *            Zeitpunkt des Votes.
      */
-    public final void setTime(final Timestamp vTime) {
+    public void setTime(final Timestamp vTime) {
         this.time = vTime;
     }
 

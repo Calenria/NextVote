@@ -104,147 +104,147 @@ public class VoteHistory {
     /**
      * @return the ammount
      */
-    public final int getAmmount() {
+    public int getAmmount() {
         return ammount;
     }
 
     /**
      * @return the damage
      */
-    public final short getDamage() {
+    public short getDamage() {
         return damage;
     }
 
     /**
      * @return the econ
      */
-    public final boolean getEcon() {
+    public boolean getEcon() {
         return econ;
     }
 
     /**
      * @return the econAmmount
      */
-    public final double getEconAmmount() {
+    public double getEconAmmount() {
         return econAmmount;
     }
 
     /**
      * @return the id
      */
-    public final Integer getId() {
+    public Integer getId() {
         return id;
     }
 
     /**
      * @return the item
      */
-    public final boolean getItem() {
+    public boolean getItem() {
         return item;
     }
 
     /**
      * @return the lastUpdate
      */
-    public final Timestamp getLastUpdate() {
+    public Timestamp getLastUpdate() {
         return lastUpdate;
     }
 
     /**
      * @return the localName
      */
-    public final String getLocalName() {
+    public String getLocalName() {
         return localName;
     }
 
     /**
      * @return the material
      */
-    public final int getMaterial() {
+    public int getMaterial() {
         return material;
     }
 
     /**
      * @return the minecraftUser
      */
-    public final String getMinecraftUser() {
+    public String getMinecraftUser() {
         return minecraftUser;
     }
 
     /**
      * @return the name
      */
-    public final String getName() {
+    public String getName() {
         return name;
     }
 
     /**
      * @return the paid
      */
-    public final boolean getPaid() {
+    public boolean getPaid() {
         return paid;
     }
 
     /**
      * @return the econ
      */
-    public final boolean getPaidEcon() {
+    public boolean getPaidEcon() {
         return paidEcon;
     }
 
     /**
      * @return the time
      */
-    public final Timestamp getTime() {
+    public Timestamp getTime() {
         return time;
     }
 
     /**
      * @return the econ
      */
-    public final boolean hasEcon() {
+    public boolean hasEcon() {
         return econ;
     }
 
     /**
      * @return the item
      */
-    public final boolean hasItem() {
+    public boolean hasItem() {
         return item;
     }
 
     /**
      * @return the econ
      */
-    public final boolean hasPaidEcon() {
+    public boolean hasPaidEcon() {
         return paidEcon;
     }
 
     /**
      * @return the econ
      */
-    public final boolean isEcon() {
+    public boolean isEcon() {
         return econ;
     }
 
     /**
      * @return the item
      */
-    public final boolean isItem() {
+    public boolean isItem() {
         return item;
     }
 
     /**
      * @return the paid
      */
-    public final boolean isPaid() {
+    public boolean isPaid() {
         return paid;
     }
 
     /**
      * @return the econ
      */
-    public final boolean isPaidEcon() {
+    public boolean isPaidEcon() {
         return paidEcon;
     }
 
@@ -252,7 +252,7 @@ public class VoteHistory {
      * @param vAmmount
      *            the ammount to set
      */
-    public final void setAmmount(final int vAmmount) {
+    public void setAmmount(final int vAmmount) {
         this.ammount = vAmmount;
     }
 
@@ -260,7 +260,7 @@ public class VoteHistory {
      * @param vDdamage
      *            the damage to set
      */
-    public final void setDamage(final short vDdamage) {
+    public void setDamage(final short vDdamage) {
         this.damage = vDdamage;
     }
 
@@ -268,7 +268,7 @@ public class VoteHistory {
      * @param vEcon
      *            the econ to set
      */
-    public final void setEcon(final boolean vEcon) {
+    public void setEcon(final boolean vEcon) {
         this.econ = vEcon;
     }
 
@@ -276,7 +276,7 @@ public class VoteHistory {
      * @param vEconAmmount
      *            the econAmmount to set
      */
-    public final void setEconAmmount(final double vEconAmmount) {
+    public void setEconAmmount(final double vEconAmmount) {
         this.econAmmount = vEconAmmount;
     }
 
@@ -284,7 +284,7 @@ public class VoteHistory {
      * @param vId
      *            set the vote Id
      */
-    public final void setId(final Integer vId) {
+    public void setId(final Integer vId) {
         this.id = vId;
     }
 
@@ -292,7 +292,7 @@ public class VoteHistory {
      * @param vItem
      *            the item to set
      */
-    public final void setItem(final boolean vItem) {
+    public void setItem(final boolean vItem) {
         this.item = vItem;
     }
 
@@ -300,7 +300,7 @@ public class VoteHistory {
      * @param vLastUpdate
      *            the lastUpdate to set
      */
-    public final void setLastUpdate(final Timestamp vLastUpdate) {
+    public void setLastUpdate(final Timestamp vLastUpdate) {
         this.lastUpdate = vLastUpdate;
     }
 
@@ -308,7 +308,7 @@ public class VoteHistory {
      * @param vLocalName
      *            the localName to set
      */
-    public final void setLocalName(final String vLocalName) {
+    public void setLocalName(final String vLocalName) {
         this.localName = vLocalName;
     }
 
@@ -316,7 +316,7 @@ public class VoteHistory {
      * @param vMaterial
      *            the material to set
      */
-    public final void setMaterial(final int vMaterial) {
+    public void setMaterial(final int vMaterial) {
         this.material = vMaterial;
     }
 
@@ -324,7 +324,7 @@ public class VoteHistory {
      * @param vMinecraftUser
      *            the minecraftUser to set
      */
-    public final void setMinecraftUser(final String vMinecraftUser) {
+    public void setMinecraftUser(final String vMinecraftUser) {
         this.minecraftUser = vMinecraftUser;
     }
 
@@ -332,7 +332,7 @@ public class VoteHistory {
      * @param vName
      *            the name to set
      */
-    public final void setName(final String vName) {
+    public void setName(final String vName) {
         this.name = vName;
     }
 
@@ -340,7 +340,7 @@ public class VoteHistory {
      * @param vPaid
      *            the paid to set
      */
-    public final void setPaid(final boolean vPaid) {
+    public void setPaid(final boolean vPaid) {
         this.paid = vPaid;
     }
 
@@ -348,7 +348,7 @@ public class VoteHistory {
      * @param vPaidEcon
      *            the econ to set
      */
-    public final void setPaidEcon(final boolean vPaidEcon) {
+    public void setPaidEcon(final boolean vPaidEcon) {
         this.paidEcon = vPaidEcon;
     }
 
@@ -356,7 +356,7 @@ public class VoteHistory {
      * @param vTime
      *            the time to set
      */
-    public final void setTime(final Timestamp vTime) {
+    public void setTime(final Timestamp vTime) {
         this.time = vTime;
     }
 }
