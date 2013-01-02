@@ -29,8 +29,9 @@
 	<property name="findbugs.home" value="docs/findbugs" />
 
 	<target name="javadoc" depends="compile">
-		
 		<javadoc packagenames="*" encoding="UTF-8" sourcepath="${src.dir}" destdir="${javadoc.dir}" private="false" author="true">
+			<excludepackage name="org.bukkit"/>
+			<excludepackage name="net.milkbowl"/>
 		</javadoc>
 	</target>
 

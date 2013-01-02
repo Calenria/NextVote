@@ -23,7 +23,8 @@ public/profiles
 modules/
 docs/checkstyle/checkstyle.xml
 docs/checkstyle/
-docs/javadocs
+docs/javadocs/
+docs/javadoc/
 build/
 build/*
 # Numerous always-ignore extensions
