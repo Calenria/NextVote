@@ -121,7 +121,7 @@ public class VoteCommands {
      * @throws com.sk89q.minecraft.util.commands.CommandException
      *             CommandException
      */
-    @Command(aliases = { "reload", "rl" }, desc = "Läd das Plugin neu", usage = "reload")
+    @Command(aliases = { "reload" }, desc = "Läd das Plugin neu", usage = "reload")
     @CommandPermissions("nextvote.reload")
     public final void reload(final CommandContext args, final CommandSender sender) throws CommandException {
         plugin.setupConfig();
@@ -140,7 +140,7 @@ public class VoteCommands {
      * @throws com.sk89q.minecraft.util.commands.CommandException
      *             CommandException
      */
-    @Command(aliases = { "top" }, desc = "Zeigt die Top Voter an", usage = "[seitenzahl]", max = 1, min = 0)
+    @Command(aliases = { "topvotes" }, desc = "Zeigt die Top Voter an", usage = "[seitenzahl]", max = 1, min = 0)
     @CommandPermissions("nextvote.votefor")
     public final void top(final CommandContext args, final CommandSender sender) throws CommandException {
         String econName = NextVote.getEconomy().currencyNamePlural();

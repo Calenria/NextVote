@@ -117,5 +117,4 @@ public class VoteAggregate {
     public static void initView(final NextVote plugin) {
         plugin.getDatabase().createSqlUpdate("CREATE VIEW `skymine_vote_aggregate` AS select svh.minecraft_user as player, sum(svh.econ_ammount) as total_econ, sum(svh.ammount) as total_items, count(*) as total from skymine_vote_history as svh group by svh.minecraft_user order by total desc").execute();
     }
-
 }

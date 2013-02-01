@@ -234,6 +234,8 @@ public class NextVoteManager {
             log.info(String.format(plugin.getMessages().getString("player.never.played"), player));
             return;
         }
+        // Player in die Heutige Voteliste aufnehmen, verhindert die ausgabe von mehr als einer Zeile beim Broadcast
+        plugin.addVote(player);
         VoteHistory vote = new VoteHistory();
         vote.setMinecraftUser(player);
         if (plugin.getPluginConfig().isFixEcon() || plugin.getPluginConfig().isOnlyEcon()) {
