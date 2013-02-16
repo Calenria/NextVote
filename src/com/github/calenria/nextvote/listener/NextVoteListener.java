@@ -152,7 +152,7 @@ public class NextVoteListener implements Listener {
         log.info(String.format(plugin.getMessages().getString("player.vote.event"), user));
 
         OfflinePlayer thePlayer = Bukkit.getOfflinePlayer(user);
-        if (!thePlayer.hasPlayedBefore()) {
+        if (!thePlayer.isOnline() || !thePlayer.hasPlayedBefore()) {
             log.info(String.format(plugin.getMessages().getString("player.never.played"), user));
             return;
         }
